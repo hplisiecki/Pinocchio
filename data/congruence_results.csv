@@ -1,0 +1,46 @@
+questionnaire,n_factors_llm_analog,n_factors_neutral,n_factors_human_sim,phi_hs_la,phi_la_n,phi_hs_n,ordering_holds
+Adult Temperament Questionnaire,23,26,23,0.273,0.297,0.31,False
+Ambivalent Sexism Inventory,2,1,2,0.517,0.923,0.755,True
+BAI,1,1,1,0.987,0.987,0.981,True
+BFI-2,14,11,11,0.336,0.372,0.318,True
+BIS_BAS Scales,1,2,3,0.761,0.896,0.469,True
+BSI,4,4,7,0.465,0.375,0.414,False
+Balanced Inventory of Desirable Responding Version 6,2,3,4,0.45,0.75,0.507,True
+Basic Psychological Needs Scale,10,10,8,0.283,0.36,0.355,True
+Bayesian Racism Scale,1,1,1,0.912,0.922,0.961,False
+Belief in a Just World Scale,1,1,1,0.899,0.927,0.946,False
+CERQ (Cognitive Emotion Regulation Questionnaire),2,2,3,0.553,0.776,0.687,True
+CMQ Conspiracy mentality,1,1,1,0.878,0.889,0.924,False
+COPE Inventory,1,1,1,1.0,0.333,0.333,False
+DASS-21,2,1,2,0.819,0.738,0.889,False
+DERS (Difficulties in Emotion Regulation Scale),2,2,3,0.74,0.896,0.722,True
+ECR-R (Experiences in Close Relationships–Revised),2,2,4,0.724,0.803,0.752,True
+EMOTION REGULATION QUESTIONNAIRE (ERQ)_,3,1,2,0.846,0.666,0.924,False
+EPQ-R,34,30,34,0.247,0.293,0.271,True
+Five Facet Mindfullness Questionnaire (FFMQ),2,3,2,0.559,0.819,0.619,True
+Gavagai,2,2,1,0.761,0.823,0.81,True
+HEXACO,35,30,23,0.239,0.294,0.253,True
+Individualism-collectivism IND-COL,3,3,2,0.732,0.472,0.418,False
+Interpersonal Reactivity Index (IRI),2,2,3,0.541,0.801,0.484,True
+MCQ-30,4,1,3,0.522,0.809,0.664,True
+Meaning in Life Questionnaire (MLQ),2,2,2,0.606,0.925,0.699,True
+Moral Foundations Questionnaire (MFQ-30),3,2,4,0.391,0.697,0.501,True
+NEED FOR COGNITION SCALE,2,2,2,0.494,0.788,0.5,True
+Need for Closure Scale (NFCS),6,3,5,0.344,0.555,0.493,True
+PROTESTANT WORK ETHIC SCALE_,2,4,3,0.651,0.687,0.547,True
+Personal Need for Structure (PNS) Scale,2,3,1,0.755,0.831,0.683,True
+Psychological Well-Being Scales,8,6,12,0.323,0.452,0.403,True
+RWA scale 22-item,1,3,3,0.712,0.789,0.55,True
+Religious Orientation Scale-R,1,2,2,0.787,0.75,0.736,False
+Rosenberg Self-Esteem Scale,2,2,2,0.364,0.873,0.295,True
+SVQ,1,2,2,0.829,0.844,0.689,True
+Schwartz_Values,2,3,4,0.52,0.772,0.566,True
+Self-Monitoring Scale,2,3,2,0.406,0.5,0.486,True
+Self-Monitoring Scale-Revised,2,2,1,0.564,0.762,0.717,True
+Self-Talk Scale,2,1,2,0.676,0.604,0.51,False
+Social Dominance Orientation Scale 7,1,1,1,0.882,0.961,0.863,True
+Spheres of Control-3,2,3,3,0.292,0.575,0.357,True
+State Trait Anxiety Inventory,5,8,7,0.453,0.539,0.345,True
+The Internal Representation Questionnaire,2,12,4,0.273,0.513,0.388,True
+The Satisfaction with Life Scale,1,1,1,0.908,0.982,0.936,True
+Varieties of Inner Speech Questionnaire-R,2,5,3,0.685,0.718,0.4,True

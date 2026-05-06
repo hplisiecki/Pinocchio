@@ -1,0 +1,118 @@
+Scale bounds parsed from questionnaires.json:
+  Adult Temperament Questionnaire                     [1, 7]
+  Ambivalent Sexism Inventory                         [0, 5]
+  BAI                                                 [0, 3]
+  BFI-2                                               [1, 5]
+  BIS_BAS Scales                                      [1, 4]
+  BSI                                                 [0, 4]
+  Balanced Inventory of Desirable Responding Version 6  [1, 7]
+  Basic Psychological Needs Scale                     [1, 7]
+  Bayesian Racism Scale                               [1, 7]
+  Belief in a Just World Scale                        [1, 6]
+  CERQ (Cognitive Emotion Regulation Questionnaire)   [1, 5]
+  CMQ Conspiracy mentality                            [0, 10]
+  COPE Inventory                                      [1, 4]
+  DASS-21                                             [0, 3]
+  DERS (Difficulties in Emotion Regulation Scale)     [1, 5]
+  ECR-R (Experiences in Close Relationships–Revised)  [1, 7]
+  EMOTION REGULATION QUESTIONNAIRE (ERQ)_             [1, 7]
+  EPQ-R                                               [0, 1]
+  Five Facet Mindfullness Questionnaire (FFMQ)        [1, 5]
+  Gavagai                                             [1, 6]
+  HEXACO                                              [1, 5]
+  IRQ                                                 [1, 5]
+  Individualism-collectivism IND-COL                  [1, 9]
+  Interpersonal Reactivity Index (IRI)                [1, 5]
+  MCQ-30                                              [1, 4]
+  Meaning in Life Questionnaire (MLQ)                 [1, 7]
+  Moral Foundations Questionnaire (MFQ-30)_1          [0, 5]
+  Moral Foundations Questionnaire (MFQ-30)_2          [0, 5]
+  NEED FOR COGNITION SCALE                            [1, 5]
+  Need for Closure Scale (NFCS)                       [1, 6]
+  PROTESTANT WORK ETHIC SCALE_                        [1, 7]
+  Personal Need for Structure (PNS) Scale             [1, 6]
+  Psychological Well-Being Scales                     [1, 7]
+  RWA scale 22-item                                   [1, 9]
+  Religious Orientation Scale-R                       [1, 5]
+  Rosenberg Self-Esteem Scale                         [1, 4]
+  SVQ                                                 [1, 7]
+  Schwartz_Values                                     [1, 5]
+  Self-Monitoring Scale                               [0, 1]
+  Self-Monitoring Scale-Revised                       [0, 5]
+  Self-Talk Scale                                     [1, 5]
+  Social Dominance Orientation Scale 7                [1, 7]
+  Spheres of Control-3                                [1, 7]
+  State Trait Anxiety Inventory                       [1, 4]
+  The Internal Representation Questionnaire           [1, 5]
+  The Satisfaction with Life Scale                    [1, 5]
+  Varieties of Inner Speech Questionnaire             [1, 6]
+  Varieties of Inner Speech Questionnaire-R           [1, 7]
+
+Loaded results.csv: 225,108 rows, 206,887 numeric responses
+
+Out-of-range responses identified: 33 (0.0160% of valid responses)
+
+Trace log written to data/oob_responses.csv (33 rows)
+
+─── Summary for methods section ───────────────────────────────────
+  Total responses parsed:          206,887
+  Out-of-range (nulled):                33  (0.0160%)
+  Remaining after cleaning:        206,854
+
+  By condition:
+    human_simulation         13 / 69,966  (0.0186%)
+    llm_analog               16 / 69,816  (0.0229%)
+    neutral                   4 / 67,105  (0.0060%)
+
+  By model (only those with ≥1 OOB):
+    Model                                                OOB   total       %  max_val
+    command-r-plus-08-2024                                 5   3,803   0.131%  754
+    command-r7b-12-2024                                    5   4,130   0.121%  7
+    deepseek-chat                                          4   3,970   0.101%  4
+    llama-3.3-70b-instruct                                 2   4,167   0.048%  95
+    mistral-medium-3.1                                     1   4,216   0.024%  0
+    kimi-k2-0905                                           1   4,218   0.024%  34
+    qwen3.5-27b                                           14   4,000   0.350%  88
+    glm-5.1                                                1   4,198   0.024%  55
+
+  Full OOB listing (sorted by magnitude):
+    Model                                Cond              Quest                               val   [lo,hi]  item
+    command-r-plus-08-2024               llm_analog        BFI-2                               754  [1,5]  Prefers to have others take charge.
+    llama-3.3-70b-instruct               human_simulation  IRQ                                  95  [1,5]  I can easily imagine someone clearly talking, and then 
+    qwen3.5-27b                          neutral           Individualism-collectivism IND-C     88  [1,9]  The wellbeing of my coworkers is important to me
+    command-r-plus-08-2024               llm_analog        The Internal Representation Ques     75  [1,5]  I tend to think things through verbally when I am relax
+    qwen3.5-27b                          human_simulation  Psychological Well-Being Scales      66  [1,7]  I am not interested in activities that will expand my h
+    glm-5.1                              neutral           Adult Temperament Questionnaire      55  [1,7]  I sometimes dream of vivid, detailed settings unlike wa
+    qwen3.5-27b                          human_simulation  HEXACO                               44  [1,5]  Whenever I feel worried about something, I want to shar
+    qwen3.5-27b                          llm_analog        Moral Foundations Questionnaire      44  [0,5]  Justice is the most important requirement for a society
+    kimi-k2-0905                         human_simulation  HEXACO                               34  [1,5]  I would be quite bored by a visit to an art gallery.
+    qwen3.5-27b                          human_simulation  HEXACO                               33  [1,5]  I can handle difficult situations without needing emoti
+    qwen3.5-27b                          human_simulation  HEXACO                               33  [1,5]  I prefer to do whatever comes to mind, rather than stic
+    qwen3.5-27b                          human_simulation  ECR-R (Experiences in Close Rela     33  [1,7]  I am nervous when partners get too close to me.
+    qwen3.5-27b                          llm_analog        BFI-2                                33  [1,5]  Values art and beauty.
+    qwen3.5-27b                          neutral           HEXACO                               33  [1,5]  I rarely feel anger, even when people treat me quite ba
+    qwen3.5-27b                          human_simulation  Need for Closure Scale (NFCS)        33  [1,6]  In most social conflicts, I can easily see which side i
+    qwen3.5-27b                          human_simulation  BFI-2                                22  [1,5]  Is sometimes rude to others.
+    qwen3.5-27b                          llm_analog        HEXACO                               22  [1,5]  If someone has cheated me once, I will always feel susp
+    qwen3.5-27b                          llm_analog        Varieties of Inner Speech Questi     11  [1,6]  I hear the voice of another person in my head. For exam
+    qwen3.5-27b                          llm_analog        Varieties of Inner Speech Questi     11  [1,7]  I evaluate my behavior using my inner speech. For examp
+    llama-3.3-70b-instruct               llm_analog        Psychological Well-Being Scales       8  [1,7]  For me, life has been a continuous process of learning,
+    command-r7b-12-2024                  llm_analog        MCQ-30                                7  [1,4]  Worrying helps me to avoid problems in the future
+    command-r-plus-08-2024               llm_analog        BIS_BAS Scales                        5  [1,4]  Criticism or scolding hurts me quite a bit.
+    command-r7b-12-2024                  llm_analog        MCQ-30                                5  [1,4]  It is bad to think certain thoughts
+    command-r-plus-08-2024               llm_analog        MCQ-30                                5  [1,4]  I need to worry in order to work well
+    command-r7b-12-2024                  neutral           Rosenberg Self-Esteem Scale           5  [1,4]  On the whole, I am satisfied with myself.
+    deepseek-chat                        human_simulation  EPQ-R                                 4  [0,1]  Are you often troubled about feelings of guilt?
+    deepseek-chat                        human_simulation  EPQ-R                                 4  [0,1]  When your temper rises, do you find it difficult to con
+    deepseek-chat                        human_simulation  EPQ-R                                 2  [0,1]  Do you nearly always have a 'ready answer' when people 
+    command-r7b-12-2024                  llm_analog        EPQ-R                                 2  [0,1]  Can you get a party going?
+    deepseek-chat                        human_simulation  EPQ-R                                 2  [0,1]  Would you call yourself tense or 'highly-strung'?
+    command-r-plus-08-2024               llm_analog        Balanced Inventory of Desirable       0  [1,7]  I never take things that don’t belong to me.
+    command-r7b-12-2024                  llm_analog        CERQ (Cognitive Emotion Regulati      0  [1,5]  I think about how I can best cope with the situation.
+    mistral-medium-3.1                   llm_analog        Balanced Inventory of Desirable       0  [1,7]  I sometimes drive faster than the speed limit.
+
+Cleaned data written to data/results_clean.csv
+  Numeric responses before: 206,887
+  Numeric responses after:  206,854  (difference: 33)
+
+Log written to data/clean_log.txt

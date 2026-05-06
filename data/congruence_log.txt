@@ -1,0 +1,59 @@
+  [--] Adult Temperament Questionnaire: hs-la=0.281  la-n=0.297  hs-n=0.319
+  [OK] Ambivalent Sexism Inventory: hs-la=0.517  la-n=0.923  hs-n=0.755
+  [OK] BAI: hs-la=0.986  la-n=0.989  hs-n=0.983
+  [OK] BFI-2: hs-la=0.335  la-n=0.420  hs-n=0.353
+  [OK] BIS_BAS Scales: hs-la=0.761  la-n=0.896  hs-n=0.469
+  [--] BSI: hs-la=0.527  la-n=0.513  hs-n=0.417
+  [OK] Balanced Inventory of Desirable Responding Version 6: hs-la=0.344  la-n=0.617  hs-n=0.414
+  [OK] Basic Psychological Needs Scale: hs-la=0.307  la-n=0.410  hs-n=0.353
+  [--] Bayesian Racism Scale: hs-la=0.912  la-n=0.922  hs-n=0.961
+  [--] Belief in a Just World Scale: hs-la=0.899  la-n=0.927  hs-n=0.946
+  [OK] CERQ (Cognitive Emotion Regulation Questionnaire): hs-la=0.553  la-n=0.776  hs-n=0.687
+  [--] CMQ Conspiracy mentality: hs-la=0.878  la-n=0.889  hs-n=0.924
+  [--] COPE Inventory: hs-la=1.000  la-n=0.333  hs-n=0.333
+  [--] DASS-21: hs-la=0.819  la-n=0.738  hs-n=0.889
+  [OK] DERS (Difficulties in Emotion Regulation Scale): hs-la=0.740  la-n=0.896  hs-n=0.722
+  [OK] ECR-R (Experiences in Close Relationships–Revised): hs-la=0.724  la-n=0.803  hs-n=0.752
+  [--] EMOTION REGULATION QUESTIONNAIRE (ERQ)_: hs-la=0.846  la-n=0.666  hs-n=0.924
+  [OK] EPQ-R: hs-la=0.247  la-n=0.293  hs-n=0.271
+  [OK] Five Facet Mindfullness Questionnaire (FFMQ): hs-la=0.559  la-n=0.819  hs-n=0.619
+  [OK] Gavagai: hs-la=0.761  la-n=0.823  hs-n=0.810
+  [OK] HEXACO: hs-la=0.239  la-n=0.294  hs-n=0.253
+  [OK] IRQ: hs-la=0.317  la-n=0.629  hs-n=0.270
+  [--] Individualism-collectivism IND-COL: hs-la=0.732  la-n=0.472  hs-n=0.418
+  [OK] Interpersonal Reactivity Index (IRI): hs-la=0.541  la-n=0.801  hs-n=0.484
+  [OK] MCQ-30: hs-la=0.522  la-n=0.809  hs-n=0.664
+  [OK] Meaning in Life Questionnaire (MLQ): hs-la=0.641  la-n=0.925  hs-n=0.640
+  [OK] Moral Foundations Questionnaire (MFQ-30)_1: hs-la=0.868  la-n=0.885  hs-n=0.850
+  [OK] Moral Foundations Questionnaire (MFQ-30)_2: hs-la=0.427  la-n=0.754  hs-n=0.406
+  [OK] NEED FOR COGNITION SCALE: hs-la=0.494  la-n=0.788  hs-n=0.500
+  [OK] Need for Closure Scale (NFCS): hs-la=0.369  la-n=0.555  hs-n=0.493
+  [OK] PROTESTANT WORK ETHIC SCALE_: hs-la=0.651  la-n=0.687  hs-n=0.547
+  [OK] Personal Need for Structure (PNS) Scale: hs-la=0.755  la-n=0.831  hs-n=0.683
+  [OK] Psychological Well-Being Scales: hs-la=0.377  la-n=0.652  hs-n=0.545
+  [OK] RWA scale 22-item: hs-la=0.712  la-n=0.789  hs-n=0.550
+  [--] Religious Orientation Scale-R: hs-la=0.787  la-n=0.750  hs-n=0.736
+  [OK] Rosenberg Self-Esteem Scale: hs-la=0.364  la-n=0.873  hs-n=0.295
+  [OK] SVQ: hs-la=0.829  la-n=0.844  hs-n=0.689
+  [OK] Schwartz_Values: hs-la=0.520  la-n=0.772  hs-n=0.566
+  [OK] Self-Monitoring Scale: hs-la=0.406  la-n=0.500  hs-n=0.486
+  [--] Self-Monitoring Scale-Revised: hs-la=0.571  la-n=0.633  hs-n=0.717
+  [--] Self-Talk Scale: hs-la=0.676  la-n=0.604  hs-n=0.510
+  [OK] Social Dominance Orientation Scale 7: hs-la=0.882  la-n=0.961  hs-n=0.863
+  [OK] Spheres of Control-3: hs-la=0.292  la-n=0.452  hs-n=0.350
+  [OK] State Trait Anxiety Inventory: hs-la=0.495  la-n=0.687  hs-n=0.355
+  [OK] The Internal Representation Questionnaire: hs-la=0.288  la-n=0.435  hs-n=0.396
+  [OK] The Satisfaction with Life Scale: hs-la=0.908  la-n=0.982  hs-n=0.936
+  [OK] Varieties of Inner Speech Questionnaire: hs-la=0.572  la-n=0.904  hs-n=0.678
+  [OK] Varieties of Inner Speech Questionnaire-R: hs-la=0.685  la-n=0.718  hs-n=0.402
+
+Ordering holds for 36/48 scales (75.0%)
+
+Mean phi values:
+  phi(hs, la) = 0.602  (both have self-model)
+  phi(la,  n) = 0.707  (one has self-model)
+  phi(hs,  n) = 0.587  (neither/most different)
+
+Report saved to data/congruence_report.docx
+Results CSV saved to data/congruence_results.csv
+

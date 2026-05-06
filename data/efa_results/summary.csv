@@ -1,0 +1,136 @@
+questionnaire,condition,method,n_models,n_items,n_factors,bartlett_p,kmo
+Adult Temperament Questionnaire,llm_analog,PCA,36,77,23,,
+Adult Temperament Questionnaire,neutral,PCA,37,77,26,,
+Adult Temperament Questionnaire,human_simulation,PCA,41,77,23,,
+Ambivalent Sexism Inventory,llm_analog,EFA,41,22,2,0.0,0.652
+Ambivalent Sexism Inventory,neutral,EFA,40,22,1,0.0,0.645
+Ambivalent Sexism Inventory,human_simulation,EFA,43,22,2,0.0,0.601
+BAI,llm_analog,EFA,44,20,1,0.0,0.726
+BAI,neutral,EFA,41,20,1,0.0,0.743
+BAI,human_simulation,EFA,48,20,1,0.0,0.828
+BFI-2,llm_analog,PCA,41,60,14,,
+BFI-2,neutral,PCA,39,60,11,,
+BFI-2,human_simulation,PCA,47,60,11,,
+BIS_BAS Scales,llm_analog,EFA,41,24,1,0.0,0.666
+BIS_BAS Scales,neutral,EFA,42,24,2,0.0,0.752
+BIS_BAS Scales,human_simulation,EFA,46,24,3,0.0,0.432
+BSI,llm_analog,PCA,38,51,4,,
+BSI,neutral,PCA,25,53,4,,
+BSI,human_simulation,PCA,41,53,7,,
+Balanced Inventory of Desirable Responding Version 6,llm_analog,PCA,37,40,2,,
+Balanced Inventory of Desirable Responding Version 6,neutral,PCA,38,40,3,,
+Balanced Inventory of Desirable Responding Version 6,human_simulation,EFA,44,40,4,0.0,0.302
+Basic Psychological Needs Scale,llm_analog,PCA,40,51,10,,
+Basic Psychological Needs Scale,neutral,PCA,38,51,10,,
+Basic Psychological Needs Scale,human_simulation,PCA,44,51,8,,
+Bayesian Racism Scale,llm_analog,EFA,44,6,1,0.0,0.682
+Bayesian Racism Scale,neutral,EFA,42,6,1,0.0,0.716
+Bayesian Racism Scale,human_simulation,EFA,47,6,1,0.0,0.717
+Belief in a Just World Scale,llm_analog,EFA,46,7,1,0.0,0.79
+Belief in a Just World Scale,neutral,EFA,47,7,1,0.0,0.599
+Belief in a Just World Scale,human_simulation,EFA,48,7,1,0.0,0.771
+CERQ (Cognitive Emotion Regulation Questionnaire),llm_analog,EFA,42,36,2,0.0,0.34
+CERQ (Cognitive Emotion Regulation Questionnaire),neutral,EFA,43,36,2,0.0,0.434
+CERQ (Cognitive Emotion Regulation Questionnaire),human_simulation,EFA,46,36,3,0.0,0.455
+CMQ Conspiracy mentality,llm_analog,EFA,47,5,1,0.0021,0.495
+CMQ Conspiracy mentality,neutral,EFA,48,5,1,0.0006,0.663
+CMQ Conspiracy mentality,human_simulation,EFA,49,5,1,0.0001,0.563
+COPE Inventory,llm_analog,PCA,2,20,1,,
+COPE Inventory,neutral,PCA,2,30,1,,
+COPE Inventory,human_simulation,PCA,2,20,1,,
+DASS-21,llm_analog,EFA,46,21,2,0.0,0.609
+DASS-21,neutral,EFA,40,21,1,0.0,0.755
+DASS-21,human_simulation,EFA,47,21,2,0.0,0.827
+DERS (Difficulties in Emotion Regulation Scale),llm_analog,EFA,41,36,2,0.0,0.589
+DERS (Difficulties in Emotion Regulation Scale),neutral,EFA,39,36,2,0.0,0.503
+DERS (Difficulties in Emotion Regulation Scale),human_simulation,EFA,47,36,3,0.0,0.473
+ECR-R (Experiences in Close Relationships–Revised),llm_analog,EFA,44,36,2,0.0,0.465
+ECR-R (Experiences in Close Relationships–Revised),neutral,EFA,39,36,2,0.0,0.349
+ECR-R (Experiences in Close Relationships–Revised),human_simulation,EFA,48,36,4,0.0,0.612
+EMOTION REGULATION QUESTIONNAIRE (ERQ)_,llm_analog,EFA,45,10,3,0.0,0.565
+EMOTION REGULATION QUESTIONNAIRE (ERQ)_,neutral,EFA,42,10,1,0.0,0.561
+EMOTION REGULATION QUESTIONNAIRE (ERQ)_,human_simulation,EFA,48,10,2,0.0,0.688
+EPQ-R,llm_analog,PCA,35,98,34,,
+EPQ-R,neutral,PCA,31,98,30,,
+EPQ-R,human_simulation,PCA,35,88,34,,
+Five Facet Mindfullness Questionnaire (FFMQ),llm_analog,EFA,43,39,2,0.0,0.303
+Five Facet Mindfullness Questionnaire (FFMQ),neutral,PCA,38,39,3,,
+Five Facet Mindfullness Questionnaire (FFMQ),human_simulation,EFA,45,39,2,0.0,0.347
+Gavagai,llm_analog,EFA,47,8,2,0.0,0.636
+Gavagai,neutral,EFA,45,8,2,0.0,0.64
+Gavagai,human_simulation,EFA,47,8,1,0.0,0.669
+HEXACO,llm_analog,PCA,36,100,35,,
+HEXACO,neutral,PCA,31,100,30,,
+HEXACO,human_simulation,PCA,24,100,23,,
+Individualism-collectivism IND-COL,llm_analog,EFA,36,34,3,0.0,0.165
+Individualism-collectivism IND-COL,neutral,EFA,38,34,3,0.0,0.252
+Individualism-collectivism IND-COL,human_simulation,PCA,32,34,2,,
+Interpersonal Reactivity Index (IRI),llm_analog,EFA,34,28,2,0.0,0.545
+Interpersonal Reactivity Index (IRI),neutral,EFA,41,28,2,0.0,0.533
+Interpersonal Reactivity Index (IRI),human_simulation,EFA,46,28,3,0.0,0.407
+MCQ-30,llm_analog,EFA,37,30,4,0.0,0.464
+MCQ-30,neutral,EFA,36,30,1,0.0,0.352
+MCQ-30,human_simulation,EFA,36,29,3,0.0,0.337
+Meaning in Life Questionnaire (MLQ),llm_analog,EFA,43,10,2,0.0,0.638
+Meaning in Life Questionnaire (MLQ),neutral,EFA,42,10,2,0.0,0.722
+Meaning in Life Questionnaire (MLQ),human_simulation,EFA,45,10,2,0.0,0.561
+Moral Foundations Questionnaire (MFQ-30),llm_analog,EFA,35,32,3,0.0,0.181
+Moral Foundations Questionnaire (MFQ-30),neutral,EFA,34,32,2,0.0,0.225
+Moral Foundations Questionnaire (MFQ-30),human_simulation,EFA,33,32,4,0.0,0.136
+NEED FOR COGNITION SCALE,llm_analog,EFA,43,18,2,0.0,0.616
+NEED FOR COGNITION SCALE,neutral,EFA,40,18,2,0.0,0.68
+NEED FOR COGNITION SCALE,human_simulation,EFA,43,18,2,0.0,0.526
+Need for Closure Scale (NFCS),llm_analog,PCA,19,41,6,,
+Need for Closure Scale (NFCS),neutral,PCA,32,41,3,,
+Need for Closure Scale (NFCS),human_simulation,PCA,35,41,5,,
+PROTESTANT WORK ETHIC SCALE_,llm_analog,EFA,39,19,2,0.0,0.526
+PROTESTANT WORK ETHIC SCALE_,neutral,EFA,40,19,4,0.0,0.458
+PROTESTANT WORK ETHIC SCALE_,human_simulation,EFA,45,19,3,0.0,0.51
+Personal Need for Structure (PNS) Scale,llm_analog,EFA,41,12,2,0.0001,0.619
+Personal Need for Structure (PNS) Scale,neutral,EFA,45,12,3,0.0,0.582
+Personal Need for Structure (PNS) Scale,human_simulation,EFA,44,12,1,0.0,0.655
+Psychological Well-Being Scales,llm_analog,PCA,26,42,8,,
+Psychological Well-Being Scales,neutral,PCA,30,42,6,,
+Psychological Well-Being Scales,human_simulation,PCA,35,42,12,,
+RWA scale 22-item,llm_analog,EFA,34,22,1,0.0,0.642
+RWA scale 22-item,neutral,EFA,31,22,3,0.0,0.417
+RWA scale 22-item,human_simulation,EFA,44,22,3,0.0,0.627
+Religious Orientation Scale-R,llm_analog,EFA,42,14,1,0.0,0.72
+Religious Orientation Scale-R,neutral,EFA,41,14,2,0.0,0.669
+Religious Orientation Scale-R,human_simulation,EFA,39,14,2,0.0,0.569
+Rosenberg Self-Esteem Scale,llm_analog,EFA,47,10,2,0.0,0.582
+Rosenberg Self-Esteem Scale,neutral,EFA,41,10,2,0.0,0.542
+Rosenberg Self-Esteem Scale,human_simulation,EFA,18,10,2,0.1324,0.478
+SVQ,llm_analog,EFA,34,27,1,0.0,0.43
+SVQ,neutral,EFA,39,27,2,0.0,0.683
+SVQ,human_simulation,EFA,35,27,2,0.0,0.47
+Schwartz_Values,llm_analog,EFA,35,30,2,0.0,0.428
+Schwartz_Values,neutral,EFA,35,30,3,0.0,0.415
+Schwartz_Values,human_simulation,EFA,37,30,4,0.0,0.404
+Self-Monitoring Scale,llm_analog,EFA,38,25,2,0.0,0.411
+Self-Monitoring Scale,neutral,EFA,35,25,3,0.0,0.428
+Self-Monitoring Scale,human_simulation,EFA,26,25,2,0.0,0.164
+Self-Monitoring Scale-Revised,llm_analog,EFA,32,13,2,0.0,0.523
+Self-Monitoring Scale-Revised,neutral,EFA,41,13,2,0.0,0.605
+Self-Monitoring Scale-Revised,human_simulation,EFA,44,13,1,0.0,0.635
+Self-Talk Scale,llm_analog,EFA,40,16,2,0.0,0.707
+Self-Talk Scale,neutral,PCA,16,16,1,,
+Self-Talk Scale,human_simulation,EFA,32,16,2,0.0,0.595
+Social Dominance Orientation Scale 7,llm_analog,EFA,37,16,1,0.0,0.739
+Social Dominance Orientation Scale 7,neutral,EFA,39,16,1,0.0,0.732
+Social Dominance Orientation Scale 7,human_simulation,EFA,42,16,1,0.0,0.643
+Spheres of Control-3,llm_analog,PCA,29,30,2,,
+Spheres of Control-3,neutral,PCA,17,30,3,,
+Spheres of Control-3,human_simulation,PCA,4,24,3,,
+State Trait Anxiety Inventory,llm_analog,PCA,33,39,5,,
+State Trait Anxiety Inventory,neutral,PCA,9,39,8,,
+State Trait Anxiety Inventory,human_simulation,PCA,33,39,7,,
+The Internal Representation Questionnaire,llm_analog,PCA,29,36,2,,
+The Internal Representation Questionnaire,neutral,PCA,15,36,12,,
+The Internal Representation Questionnaire,human_simulation,PCA,30,36,4,,
+The Satisfaction with Life Scale,llm_analog,EFA,48,5,1,0.0,0.695
+The Satisfaction with Life Scale,neutral,EFA,43,5,1,0.0,0.634
+The Satisfaction with Life Scale,human_simulation,EFA,47,5,1,0.0006,0.562
+Varieties of Inner Speech Questionnaire-R,llm_analog,EFA,36,26,2,0.0,0.492
+Varieties of Inner Speech Questionnaire-R,neutral,PCA,13,26,5,,
+Varieties of Inner Speech Questionnaire-R,human_simulation,EFA,36,26,3,0.0,0.433

@@ -1,0 +1,147 @@
+  [PCA] Adult Temperament Questionnaire / llm_analog: 36 models, 77 items -> 23 factors
+  [PCA] Adult Temperament Questionnaire / neutral: 37 models, 77 items -> 26 factors
+  [PCA] Adult Temperament Questionnaire / human_simulation: 41 models, 77 items -> 21 factors
+  [EFA] Ambivalent Sexism Inventory / llm_analog: 41 models, 22 items -> 2 factors
+  [EFA] Ambivalent Sexism Inventory / neutral: 40 models, 22 items -> 1 factors
+  [EFA] Ambivalent Sexism Inventory / human_simulation: 43 models, 22 items -> 2 factors
+  [EFA] BAI / llm_analog: 44 models, 21 items -> 1 factors
+  [EFA] BAI / neutral: 40 models, 21 items -> 1 factors
+  [EFA] BAI / human_simulation: 47 models, 21 items -> 1 factors
+  [PCA] BFI-2 / llm_analog: 41 models, 60 items -> 10 factors
+  [PCA] BFI-2 / neutral: 39 models, 60 items -> 7 factors
+  [PCA] BFI-2 / human_simulation: 47 models, 60 items -> 10 factors
+  [EFA] BIS_BAS Scales / llm_analog: 41 models, 24 items -> 1 factors
+  [EFA] BIS_BAS Scales / neutral: 42 models, 24 items -> 2 factors
+  [EFA] BIS_BAS Scales / human_simulation: 46 models, 24 items -> 3 factors
+  [PCA] BSI / llm_analog: 38 models, 51 items -> 3 factors
+  [PCA] BSI / neutral: 25 models, 53 items -> 6 factors
+  [PCA] BSI / human_simulation: 41 models, 53 items -> 8 factors
+  [PCA] Balanced Inventory of Desirable Responding Version 6 / llm_analog: 37 models, 40 items -> 3 factors
+  [PCA] Balanced Inventory of Desirable Responding Version 6 / neutral: 38 models, 40 items -> 4 factors
+  [EFA] Balanced Inventory of Desirable Responding Version 6 / human_simulation: 44 models, 40 items -> 4 factors
+  [PCA] Basic Psychological Needs Scale / llm_analog: 40 models, 51 items -> 6 factors
+  [PCA] Basic Psychological Needs Scale / neutral: 38 models, 51 items -> 7 factors
+  [PCA] Basic Psychological Needs Scale / human_simulation: 44 models, 51 items -> 7 factors
+  [EFA] Bayesian Racism Scale / llm_analog: 44 models, 6 items -> 1 factors
+  [EFA] Bayesian Racism Scale / neutral: 42 models, 6 items -> 1 factors
+  [EFA] Bayesian Racism Scale / human_simulation: 47 models, 6 items -> 1 factors
+  [EFA] Belief in a Just World Scale / llm_analog: 46 models, 7 items -> 1 factors
+  [EFA] Belief in a Just World Scale / neutral: 47 models, 7 items -> 1 factors
+  [EFA] Belief in a Just World Scale / human_simulation: 48 models, 7 items -> 1 factors
+  [EFA] CERQ (Cognitive Emotion Regulation Questionnaire) / llm_analog: 42 models, 36 items -> 2 factors
+  [EFA] CERQ (Cognitive Emotion Regulation Questionnaire) / neutral: 43 models, 36 items -> 2 factors
+  [EFA] CERQ (Cognitive Emotion Regulation Questionnaire) / human_simulation: 46 models, 36 items -> 3 factors
+  [EFA] CMQ Conspiracy mentality / llm_analog: 47 models, 5 items -> 1 factors
+  [EFA] CMQ Conspiracy mentality / neutral: 48 models, 5 items -> 1 factors
+  [EFA] CMQ Conspiracy mentality / human_simulation: 49 models, 5 items -> 1 factors
+  [PCA] COPE Inventory / llm_analog: 2 models, 20 items -> 1 factors
+  [PCA] COPE Inventory / neutral: 2 models, 30 items -> 1 factors
+  [PCA] COPE Inventory / human_simulation: 2 models, 20 items -> 1 factors
+  [EFA] DASS-21 / llm_analog: 46 models, 21 items -> 2 factors
+  [EFA] DASS-21 / neutral: 40 models, 21 items -> 1 factors
+  [EFA] DASS-21 / human_simulation: 47 models, 21 items -> 2 factors
+  [EFA] DERS (Difficulties in Emotion Regulation Scale) / llm_analog: 41 models, 36 items -> 2 factors
+  [EFA] DERS (Difficulties in Emotion Regulation Scale) / neutral: 39 models, 36 items -> 2 factors
+  [EFA] DERS (Difficulties in Emotion Regulation Scale) / human_simulation: 47 models, 36 items -> 3 factors
+  [EFA] ECR-R (Experiences in Close Relationships–Revised) / llm_analog: 44 models, 36 items -> 2 factors
+  [EFA] ECR-R (Experiences in Close Relationships–Revised) / neutral: 39 models, 36 items -> 2 factors
+  [EFA] ECR-R (Experiences in Close Relationships–Revised) / human_simulation: 48 models, 36 items -> 4 factors
+  [EFA] EMOTION REGULATION QUESTIONNAIRE (ERQ)_ / llm_analog: 45 models, 10 items -> 3 factors
+  [EFA] EMOTION REGULATION QUESTIONNAIRE (ERQ)_ / neutral: 42 models, 10 items -> 1 factors
+  [EFA] EMOTION REGULATION QUESTIONNAIRE (ERQ)_ / human_simulation: 48 models, 10 items -> 2 factors
+  [PCA] EPQ-R / llm_analog: 35 models, 98 items -> 34 factors
+  [PCA] EPQ-R / neutral: 31 models, 98 items -> 30 factors
+  [PCA] EPQ-R / human_simulation: 35 models, 88 items -> 34 factors
+  [EFA] Five Facet Mindfullness Questionnaire (FFMQ) / llm_analog: 43 models, 39 items -> 2 factors
+  [PCA] Five Facet Mindfullness Questionnaire (FFMQ) / neutral: 38 models, 39 items -> 4 factors
+  [EFA] Five Facet Mindfullness Questionnaire (FFMQ) / human_simulation: 45 models, 39 items -> 2 factors
+  [EFA] Gavagai / llm_analog: 47 models, 8 items -> 2 factors
+  [EFA] Gavagai / neutral: 45 models, 8 items -> 2 factors
+  [EFA] Gavagai / human_simulation: 47 models, 8 items -> 1 factors
+  [PCA] HEXACO / llm_analog: 36 models, 100 items -> 35 factors
+  [PCA] HEXACO / neutral: 31 models, 100 items -> 30 factors
+  [PCA] HEXACO / human_simulation: 24 models, 100 items -> 23 factors
+  [EFA] IRQ / llm_analog: 41 models, 36 items -> 2 factors
+  [PCA] IRQ / neutral: 34 models, 36 items -> 3 factors
+  [EFA] IRQ / human_simulation: 41 models, 36 items -> 3 factors
+  [EFA] Individualism-collectivism IND-COL / llm_analog: 36 models, 34 items -> 3 factors
+  [EFA] Individualism-collectivism IND-COL / neutral: 38 models, 34 items -> 3 factors
+  [PCA] Individualism-collectivism IND-COL / human_simulation: 32 models, 34 items -> 2 factors
+  [EFA] Interpersonal Reactivity Index (IRI) / llm_analog: 34 models, 28 items -> 2 factors
+  [EFA] Interpersonal Reactivity Index (IRI) / neutral: 41 models, 28 items -> 2 factors
+  [EFA] Interpersonal Reactivity Index (IRI) / human_simulation: 46 models, 28 items -> 3 factors
+  [EFA] MCQ-30 / llm_analog: 37 models, 30 items -> 4 factors
+  [EFA] MCQ-30 / neutral: 36 models, 30 items -> 1 factors
+  [EFA] MCQ-30 / human_simulation: 36 models, 29 items -> 3 factors
+  [EFA] Meaning in Life Questionnaire (MLQ) / llm_analog: 43 models, 10 items -> 2 factors
+  [EFA] Meaning in Life Questionnaire (MLQ) / neutral: 42 models, 10 items -> 2 factors
+  [EFA] Meaning in Life Questionnaire (MLQ) / human_simulation: 45 models, 10 items -> 3 factors
+  [EFA] Moral Foundations Questionnaire (MFQ-30)_1 / llm_analog: 39 models, 16 items -> 2 factors
+  [EFA] Moral Foundations Questionnaire (MFQ-30)_1 / neutral: 41 models, 16 items -> 2 factors
+  [EFA] Moral Foundations Questionnaire (MFQ-30)_1 / human_simulation: 44 models, 16 items -> 2 factors
+  [EFA] Moral Foundations Questionnaire (MFQ-30)_2 / llm_analog: 43 models, 16 items -> 2 factors
+  [EFA] Moral Foundations Questionnaire (MFQ-30)_2 / neutral: 39 models, 16 items -> 2 factors
+  [EFA] Moral Foundations Questionnaire (MFQ-30)_2 / human_simulation: 36 models, 16 items -> 2 factors
+  [EFA] NEED FOR COGNITION SCALE / llm_analog: 43 models, 18 items -> 2 factors
+  [EFA] NEED FOR COGNITION SCALE / neutral: 40 models, 18 items -> 2 factors
+  [EFA] NEED FOR COGNITION SCALE / human_simulation: 43 models, 18 items -> 2 factors
+  [PCA] Need for Closure Scale (NFCS) / llm_analog: 19 models, 41 items -> 7 factors
+  [PCA] Need for Closure Scale (NFCS) / neutral: 32 models, 41 items -> 3 factors
+  [PCA] Need for Closure Scale (NFCS) / human_simulation: 35 models, 41 items -> 5 factors
+  [EFA] PROTESTANT WORK ETHIC SCALE_ / llm_analog: 39 models, 19 items -> 2 factors
+  [EFA] PROTESTANT WORK ETHIC SCALE_ / neutral: 40 models, 19 items -> 4 factors
+  [EFA] PROTESTANT WORK ETHIC SCALE_ / human_simulation: 45 models, 19 items -> 3 factors
+  [EFA] Personal Need for Structure (PNS) Scale / llm_analog: 41 models, 12 items -> 2 factors
+  [EFA] Personal Need for Structure (PNS) Scale / neutral: 45 models, 12 items -> 3 factors
+  [EFA] Personal Need for Structure (PNS) Scale / human_simulation: 44 models, 12 items -> 1 factors
+  [PCA] Psychological Well-Being Scales / llm_analog: 26 models, 42 items -> 4 factors
+  [PCA] Psychological Well-Being Scales / neutral: 30 models, 42 items -> 2 factors
+  [PCA] Psychological Well-Being Scales / human_simulation: 35 models, 42 items -> 10 factors
+  [EFA] RWA scale 22-item / llm_analog: 34 models, 22 items -> 1 factors
+  [EFA] RWA scale 22-item / neutral: 31 models, 22 items -> 3 factors
+  [EFA] RWA scale 22-item / human_simulation: 44 models, 22 items -> 3 factors
+  [EFA] Religious Orientation Scale-R / llm_analog: 42 models, 14 items -> 1 factors
+  [EFA] Religious Orientation Scale-R / neutral: 41 models, 14 items -> 2 factors
+  [EFA] Religious Orientation Scale-R / human_simulation: 39 models, 14 items -> 2 factors
+  [EFA] Rosenberg Self-Esteem Scale / llm_analog: 47 models, 10 items -> 2 factors
+  [EFA] Rosenberg Self-Esteem Scale / neutral: 41 models, 10 items -> 2 factors
+  [EFA] Rosenberg Self-Esteem Scale / human_simulation: 18 models, 10 items -> 2 factors
+  [EFA] SVQ / llm_analog: 34 models, 27 items -> 1 factors
+  [EFA] SVQ / neutral: 39 models, 27 items -> 2 factors
+  [EFA] SVQ / human_simulation: 35 models, 27 items -> 2 factors
+  [EFA] Schwartz_Values / llm_analog: 35 models, 30 items -> 2 factors
+  [EFA] Schwartz_Values / neutral: 35 models, 30 items -> 3 factors
+  [EFA] Schwartz_Values / human_simulation: 37 models, 30 items -> 4 factors
+  [EFA] Self-Monitoring Scale / llm_analog: 38 models, 25 items -> 2 factors
+  [EFA] Self-Monitoring Scale / neutral: 35 models, 25 items -> 3 factors
+  [EFA] Self-Monitoring Scale / human_simulation: 26 models, 25 items -> 2 factors
+  [EFA] Self-Monitoring Scale-Revised / llm_analog: 32 models, 13 items -> 3 factors
+  [EFA] Self-Monitoring Scale-Revised / neutral: 41 models, 13 items -> 2 factors
+  [EFA] Self-Monitoring Scale-Revised / human_simulation: 44 models, 13 items -> 1 factors
+  [EFA] Self-Talk Scale / llm_analog: 40 models, 16 items -> 2 factors
+  [PCA] Self-Talk Scale / neutral: 16 models, 16 items -> 1 factors
+  [EFA] Self-Talk Scale / human_simulation: 32 models, 16 items -> 2 factors
+  [EFA] Social Dominance Orientation Scale 7 / llm_analog: 37 models, 16 items -> 1 factors
+  [EFA] Social Dominance Orientation Scale 7 / neutral: 39 models, 16 items -> 1 factors
+  [EFA] Social Dominance Orientation Scale 7 / human_simulation: 42 models, 16 items -> 1 factors
+  [PCA] Spheres of Control-3 / llm_analog: 29 models, 30 items -> 2 factors
+  [PCA] Spheres of Control-3 / neutral: 17 models, 30 items -> 2 factors
+  [PCA] Spheres of Control-3 / human_simulation: 4 models, 24 items -> 3 factors
+  [PCA] State Trait Anxiety Inventory / llm_analog: 32 models, 41 items -> 3 factors
+  [PCA] State Trait Anxiety Inventory / neutral: 9 models, 41 items -> 8 factors
+  [PCA] State Trait Anxiety Inventory / human_simulation: 33 models, 41 items -> 8 factors
+  [PCA] The Internal Representation Questionnaire / llm_analog: 29 models, 36 items -> 5 factors
+  [PCA] The Internal Representation Questionnaire / neutral: 15 models, 36 items -> 10 factors
+  [PCA] The Internal Representation Questionnaire / human_simulation: 30 models, 36 items -> 3 factors
+  [EFA] The Satisfaction with Life Scale / llm_analog: 48 models, 5 items -> 1 factors
+  [EFA] The Satisfaction with Life Scale / neutral: 43 models, 5 items -> 1 factors
+  [EFA] The Satisfaction with Life Scale / human_simulation: 47 models, 5 items -> 1 factors
+  [EFA] Varieties of Inner Speech Questionnaire / llm_analog: 31 models, 18 items -> 1 factors
+  [EFA] Varieties of Inner Speech Questionnaire / neutral: 31 models, 18 items -> 1 factors
+  [EFA] Varieties of Inner Speech Questionnaire / human_simulation: 43 models, 18 items -> 4 factors
+  [EFA] Varieties of Inner Speech Questionnaire-R / llm_analog: 36 models, 26 items -> 2 factors
+  [PCA] Varieties of Inner Speech Questionnaire-R / neutral: 13 models, 26 items -> 9 factors
+  [EFA] Varieties of Inner Speech Questionnaire-R / human_simulation: 36 models, 26 items -> 3 factors
+
+Done. Results saved to data/efa_results/
+

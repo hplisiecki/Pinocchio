@@ -1,0 +1,517 @@
+Loading embeddings...
+  Loaded 1200001 vectors of dim 300
+Loading spaCy...
+
+=== Condition: llm_analog ===
+  1399 items across 48 questionnaires
+  [pca_sweep] PCA_K=2
+  [pca_sweep] PCA_K=4
+  [pca_sweep] PCA_K=6
+  [pca_sweep] PCA_K=8
+  [pca_sweep] PCA_K=10
+  [pca_sweep] PCA_K=12
+  [pca_sweep] PCA_K=14
+  [pca_sweep] PCA_K=16
+  [pca_sweep] PCA_K=18
+  [pca_sweep] PCA_K=20
+  [pca_sweep] PCA_K=22
+  [pca_sweep] PCA_K=24
+  [pca_sweep] PCA_K=26
+  [pca_sweep] PCA_K=28
+  [pca_sweep] PCA_K=30
+  [pca_sweep] PCA_K=32
+  [pca_sweep] PCA_K=34
+  [pca_sweep] PCA_K=36
+  [pca_sweep] PCA_K=38
+  [pca_sweep] PCA_K=40
+  [pca_sweep] PCA_K=42
+  [pca_sweep] PCA_K=44
+  [pca_sweep] PCA_K=46
+  [pca_sweep] PCA_K=48
+  [pca_sweep] PCA_K=50
+  [pca_sweep] PCA_K=52
+  [pca_sweep] PCA_K=54
+  [pca_sweep] PCA_K=56
+  [pca_sweep] PCA_K=58
+  [pca_sweep] PCA_K=60
+  [pca_sweep] PCA_K=62
+  [pca_sweep] PCA_K=64
+  [pca_sweep] PCA_K=66
+  [pca_sweep] PCA_K=68
+  [pca_sweep] PCA_K=70
+  [pca_sweep] PCA_K=72
+  [pca_sweep] PCA_K=74
+  [pca_sweep] PCA_K=76
+  [pca_sweep] PCA_K=78
+  [pca_sweep] PCA_K=80
+  [pca_sweep] PCA_K=82
+  [pca_sweep] PCA_K=84
+  [pca_sweep] PCA_K=86
+  [pca_sweep] PCA_K=88
+  [pca_sweep] PCA_K=90
+  [pca_sweep] PCA_K=92
+  [pca_sweep] PCA_K=94
+  [pca_sweep] PCA_K=96
+  [pca_sweep] PCA_K=98
+  [pca_sweep] PCA_K=100
+  [pca_sweep] PCA_K=102
+  [pca_sweep] PCA_K=104
+  [pca_sweep] PCA_K=106
+  [pca_sweep] PCA_K=108
+  [pca_sweep] PCA_K=110
+  [pca_sweep] PCA_K=112
+  [pca_sweep] PCA_K=114
+  [pca_sweep] PCA_K=116
+  [pca_sweep] PCA_K=118
+  [pca_sweep] PCA_K=120
+
+=== BEST PCA_K (JOINT AUCK, single-pass) ===
+PCA_K        : 32
+joint_score  : 0.837402
+interp_auck  : 1.639726
+stab_auck_raw: 0.035079
+Saved table â†’ data/ssd_results\llm_analog_pca_k_joint_auck_table.xlsx
+Saved figure â†’ data/ssd_results\llm_analog_sweep_plot.png
+  Selected PCA_K = 32
+  rÂ²=0.0616  rÂ²_adj=0.0396  F=2.80  p=4.2719e-07  r=0.2483
+
+--- Words aligned with Î²Ì‚ ---
+Word                   cos     shift
+knees               0.2837
+shook               0.2792
+remembering         0.2663
+grabbed             0.2600
+bookmark            0.2600
+shaking             0.2567
+permalink           0.2567
+staring             0.2552
+chest               0.2551
+tutorial            0.2491
+breath              0.2478
+throat              0.2439
+fingers             0.2364
+smiled              0.2363
+belly               0.2355
+sensation           0.2350
+clicked             0.2329
+curse               0.2324
+eyes                0.2308
+nausea              0.2306
+noticing            0.2258
+mouth               0.2251
+tunnel              0.2237
+tongue              0.2236
+hug                 0.2202
+lips                0.2201
+disappeared         0.2175
+popped              0.2175
+secrets             0.2169
+sore                0.2165
+tears               0.2131
+pain                0.2130
+pains               0.2121
+skull               0.2120
+stomach             0.2112
+finger              0.2092
+dreaming            0.2073
+cried               0.2069
+grabbing            0.2066
+clicking            0.2064
+
+--- Words opposed to Î²Ì‚ ---
+Word                   cos     shift
+competent           0.3197
+reasonably          0.3180
+counterparts        0.2968
+furnished           0.2859
+allocated           0.2780
+exceed              0.2765
+insured             0.2679
+exceptionally       0.2660
+priced              0.2621
+politically         0.2609
+regulated           0.2580
+economically        0.2576
+substantially       0.2498
+budget              0.2494
+households          0.2481
+maintained          0.2457
+salaries            0.2427
+districts           0.2416
+comprised           0.2377
+fare                0.2372
+annually            0.2326
+appointed           0.2321
+average             0.2307
+relatively          0.2290
+metropolitan        0.2290
+rates               0.2278
+composed            0.2276
+excluding           0.2260
+budgets             0.2257
+proportion          0.2250
+favorable           0.2249
+predictable         0.2234
+generally           0.2231
+premiums            0.2230
+independent         0.2229
+domestic            0.2221
+minimum             0.2221
+modest              0.2205
+varied              0.2195
+suburbs             0.2186
+  Top words saved
+  Clusters saved
+  Cluster snippets saved
+  Beta snippets saved
+  Item scores saved
+
+=== Condition: neutral ===
+  1411 items across 48 questionnaires
+  [pca_sweep] PCA_K=2
+  [pca_sweep] PCA_K=4
+  [pca_sweep] PCA_K=6
+  [pca_sweep] PCA_K=8
+  [pca_sweep] PCA_K=10
+  [pca_sweep] PCA_K=12
+  [pca_sweep] PCA_K=14
+  [pca_sweep] PCA_K=16
+  [pca_sweep] PCA_K=18
+  [pca_sweep] PCA_K=20
+  [pca_sweep] PCA_K=22
+  [pca_sweep] PCA_K=24
+  [pca_sweep] PCA_K=26
+  [pca_sweep] PCA_K=28
+  [pca_sweep] PCA_K=30
+  [pca_sweep] PCA_K=32
+  [pca_sweep] PCA_K=34
+  [pca_sweep] PCA_K=36
+  [pca_sweep] PCA_K=38
+  [pca_sweep] PCA_K=40
+  [pca_sweep] PCA_K=42
+  [pca_sweep] PCA_K=44
+  [pca_sweep] PCA_K=46
+  [pca_sweep] PCA_K=48
+  [pca_sweep] PCA_K=50
+  [pca_sweep] PCA_K=52
+  [pca_sweep] PCA_K=54
+  [pca_sweep] PCA_K=56
+  [pca_sweep] PCA_K=58
+  [pca_sweep] PCA_K=60
+  [pca_sweep] PCA_K=62
+  [pca_sweep] PCA_K=64
+  [pca_sweep] PCA_K=66
+  [pca_sweep] PCA_K=68
+  [pca_sweep] PCA_K=70
+  [pca_sweep] PCA_K=72
+  [pca_sweep] PCA_K=74
+  [pca_sweep] PCA_K=76
+  [pca_sweep] PCA_K=78
+  [pca_sweep] PCA_K=80
+  [pca_sweep] PCA_K=82
+  [pca_sweep] PCA_K=84
+  [pca_sweep] PCA_K=86
+  [pca_sweep] PCA_K=88
+  [pca_sweep] PCA_K=90
+  [pca_sweep] PCA_K=92
+  [pca_sweep] PCA_K=94
+  [pca_sweep] PCA_K=96
+  [pca_sweep] PCA_K=98
+  [pca_sweep] PCA_K=100
+  [pca_sweep] PCA_K=102
+  [pca_sweep] PCA_K=104
+  [pca_sweep] PCA_K=106
+  [pca_sweep] PCA_K=108
+  [pca_sweep] PCA_K=110
+  [pca_sweep] PCA_K=112
+  [pca_sweep] PCA_K=114
+  [pca_sweep] PCA_K=116
+  [pca_sweep] PCA_K=118
+  [pca_sweep] PCA_K=120
+
+=== BEST PCA_K (JOINT AUCK, single-pass) ===
+PCA_K        : 12
+joint_score  : 0.621843
+interp_auck  : 1.598146
+stab_auck_raw: -0.354460
+Saved table â†’ data/ssd_results\neutral_pca_k_joint_auck_table.xlsx
+Saved figure â†’ data/ssd_results\neutral_sweep_plot.png
+  Selected PCA_K = 12
+  rÂ²=0.0455  rÂ²_adj=0.0373  F=5.55  p=2.4364e-09  r=0.2133
+
+--- Words aligned with Î²Ì‚ ---
+Word                   cos     shift
+nausea              0.3448
+panic               0.3356
+headaches           0.3352
+fatigue             0.3189
+headache            0.3186
+crying              0.3106
+anxiety             0.2947
+shaking             0.2893
+waking              0.2796
+cried               0.2704
+depression          0.2682
+sore                0.2651
+pains               0.2644
+sadness             0.2602
+exhausted           0.2545
+terrified           0.2543
+depressed           0.2518
+fever               0.2511
+woke                0.2486
+freaking            0.2470
+:(                  0.2425
+overwhelmed         0.2422
+anxious             0.2384
+ptsd                0.2368
+tears               0.2350
+screaming           0.2298
+awake               0.2277
+asleep              0.2260
+fog                 0.2246
+nightmare           0.2243
+grief               0.2210
+cough               0.2195
+sucked              0.2193
+pain                0.2183
+suicidal            0.2177
+staring             0.2170
+frustration         0.2170
+symptom             0.2157
+scared              0.2113
+tired               0.2083
+
+--- Words opposed to Î²Ì‚ ---
+Word                   cos     shift
+reasonably          0.4327
+permitted           0.4311
+desirable           0.4301
+accordance          0.4219
+furnished           0.4200
+discretion          0.4193
+respectful          0.4107
+applicable          0.4007
+inclusive           0.3971
+comply              0.3898
+adhere              0.3883
+jurisdiction        0.3876
+manner              0.3875
+attractive          0.3841
+constitute          0.3841
+reasonable          0.3813
+strictly            0.3800
+protected           0.3771
+trustworthy         0.3753
+herein              0.3753
+favorable           0.3735
+preferred           0.3725
+exclusive           0.3719
+establish           0.3714
+appealing           0.3705
+acceptable          0.3702
+preference          0.3681
+authorized          0.3654
+property            0.3646
+accommodation       0.3645
+prohibited          0.3635
+readily             0.3607
+maintained          0.3605
+friendly            0.3604
+permit              0.3575
+provide             0.3559
+offer               0.3559
+respect             0.3558
+sensible            0.3544
+suitable            0.3540
+  Top words saved
+  Clusters saved
+  Cluster snippets saved
+  Beta snippets saved
+  Item scores saved
+
+=== Condition: human_simulation ===
+  1384 items across 48 questionnaires
+  [pca_sweep] PCA_K=2
+  [pca_sweep] PCA_K=4
+  [pca_sweep] PCA_K=6
+  [pca_sweep] PCA_K=8
+  [pca_sweep] PCA_K=10
+  [pca_sweep] PCA_K=12
+  [pca_sweep] PCA_K=14
+  [pca_sweep] PCA_K=16
+  [pca_sweep] PCA_K=18
+  [pca_sweep] PCA_K=20
+  [pca_sweep] PCA_K=22
+  [pca_sweep] PCA_K=24
+  [pca_sweep] PCA_K=26
+  [pca_sweep] PCA_K=28
+  [pca_sweep] PCA_K=30
+  [pca_sweep] PCA_K=32
+  [pca_sweep] PCA_K=34
+  [pca_sweep] PCA_K=36
+  [pca_sweep] PCA_K=38
+  [pca_sweep] PCA_K=40
+  [pca_sweep] PCA_K=42
+  [pca_sweep] PCA_K=44
+  [pca_sweep] PCA_K=46
+  [pca_sweep] PCA_K=48
+  [pca_sweep] PCA_K=50
+  [pca_sweep] PCA_K=52
+  [pca_sweep] PCA_K=54
+  [pca_sweep] PCA_K=56
+  [pca_sweep] PCA_K=58
+  [pca_sweep] PCA_K=60
+  [pca_sweep] PCA_K=62
+  [pca_sweep] PCA_K=64
+  [pca_sweep] PCA_K=66
+  [pca_sweep] PCA_K=68
+  [pca_sweep] PCA_K=70
+  [pca_sweep] PCA_K=72
+  [pca_sweep] PCA_K=74
+  [pca_sweep] PCA_K=76
+  [pca_sweep] PCA_K=78
+  [pca_sweep] PCA_K=80
+  [pca_sweep] PCA_K=82
+  [pca_sweep] PCA_K=84
+  [pca_sweep] PCA_K=86
+  [pca_sweep] PCA_K=88
+  [pca_sweep] PCA_K=90
+  [pca_sweep] PCA_K=92
+  [pca_sweep] PCA_K=94
+  [pca_sweep] PCA_K=96
+  [pca_sweep] PCA_K=98
+  [pca_sweep] PCA_K=100
+  [pca_sweep] PCA_K=102
+  [pca_sweep] PCA_K=104
+  [pca_sweep] PCA_K=106
+  [pca_sweep] PCA_K=108
+  [pca_sweep] PCA_K=110
+  [pca_sweep] PCA_K=112
+  [pca_sweep] PCA_K=114
+  [pca_sweep] PCA_K=116
+  [pca_sweep] PCA_K=118
+  [pca_sweep] PCA_K=120
+
+=== BEST PCA_K (JOINT AUCK, single-pass) ===
+PCA_K        : 16
+joint_score  : 0.706579
+interp_auck  : 1.646339
+stab_auck_raw: -0.233181
+Saved table â†’ data/ssd_results\human_simulation_pca_k_joint_auck_table.xlsx
+Saved figure â†’ data/ssd_results\human_simulation_sweep_plot.png
+  Selected PCA_K = 16
+  rÂ²=0.0445  rÂ²_adj=0.0333  F=3.97  p=1.9998e-07  r=0.2109
+
+--- Words aligned with Î²Ì‚ ---
+Word                   cos     shift
+breathe             0.3420
+cried               0.3325
+waking              0.3324
+darkness            0.3315
+knees               0.3174
+praying             0.3127
+desperately         0.3123
+tears               0.3116
+crying              0.3105
+asleep              0.3081
+sadness             0.3081
+pray                0.2981
+someday             0.2916
+scream              0.2916
+cry                 0.2906
+grief               0.2905
+dreaming            0.2885
+forever             0.2859
+joy                 0.2847
+trapped             0.2821
+staring             0.2802
+bless               0.2765
+thy                 0.2761
+awake               0.2727
+glory               0.2723
+eternal             0.2689
+screaming           0.2681
+hurting             0.2676
+shame               0.2667
+wake                0.2665
+thee                0.2664
+dying               0.2633
+hug                 0.2626
+heaven              0.2615
+terrified           0.2593
+realizing           0.2561
+shaking             0.2546
+breath              0.2524
+dreams              0.2520
+curse               0.2519
+
+--- Words opposed to Î²Ì‚ ---
+Word                   cos     shift
+analyses            0.3907
+indicated           0.3730
+findings            0.3638
+classified          0.3619
+favorable           0.3604
+differ              0.3562
+evaluated           0.3512
+identified          0.3495
+assessed            0.3451
+responses           0.3429
+reviewed            0.3421
+informative         0.3397
+analyzed            0.3370
+summary             0.3363
+analysis            0.3353
+relevant            0.3353
+applicable          0.3343
+classification      0.3295
+broadly             0.3285
+derived             0.3276
+preliminary         0.3259
+variation           0.3259
+indicating          0.3234
+representative      0.3190
+excluded            0.3190
+herein              0.3183
+cited               0.3172
+evaluation          0.3164
+indicate            0.3149
+inquiries           0.3128
+vary                0.3120
+investigated        0.3116
+quantitative        0.3108
+detailed            0.3107
+conclusions         0.3103
+varied              0.3092
+varies              0.3090
+constitute          0.3088
+examined            0.3084
+characteristics     0.3075
+  Top words saved
+  Clusters saved
+  Cluster snippets saved
+  Beta snippets saved
+  Item scores saved
+
+Summary saved â†’ data/ssd_results/ssd_summary.xlsx
+
+Snippets: docs:   0%|          | 0/1399 [00:00<?, ?it/s]
+Snippets: docs: 100%|â–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffd| 1399/1399 [00:00<00:00, 133072.49it/s]
+
+Snippets: sentences:   0%|          | 0/1399 [00:00<?, ?it/s]
+Snippets: sentences: 100%|â–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffd| 1399/1399 [00:00<00:00, 82289.70it/s]
+
+Snippets: docs:   0%|          | 0/1411 [00:00<?, ?it/s]
+Snippets: docs: 100%|â–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffd| 1411/1411 [00:00<00:00, 128054.42it/s]
+
+Snippets: sentences:   0%|          | 0/1411 [00:00<?, ?it/s]
+Snippets: sentences: 100%|â–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffd| 1411/1411 [00:00<00:00, 80509.37it/s]
+
+Snippets: docs:   0%|          | 0/1384 [00:00<?, ?it/s]
+Snippets: docs: 100%|â–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffd| 1384/1384 [00:00<00:00, 110671.03it/s]
+
+Snippets: sentences:   0%|          | 0/1384 [00:00<?, ?it/s]
+Snippets: sentences: 100%|â–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffdâ–\ufffd| 1384/1384 [00:00<00:00, 17330.13it/s]
+
+

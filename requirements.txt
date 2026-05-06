@@ -1,0 +1,12 @@
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+matplotlib==3.10.9
+scikit-learn==1.5.2
+factor_analyzer==0.5.1
+ssdiff==0.2.2
+openpyxl==3.1.5
+openai==2.32.0
+python-docx==1.2.0
+spacy==3.8.14
+gensim==4.4.0

@@ -1,0 +1,120 @@
+Questionnaires in analysis: 45
+f1_df shape (models x questionnaires): (50, 45)
+PC1 variance: 47.1%
+PC2 variance: 12.0%
+PC1+PC2: 59.1%
+
+Pinocchio prediction sheet columns: ['condition', 'n', 'pearson_r', 'pearson_p', 'spearman_rho', 'spearman_p']
+          condition     n  pearson_r  pearson_p  spearman_rho  spearman_p
+0        llm_analog  1308     0.1132     0.0000        0.1367      0.0000
+1           neutral  1310     0.0914     0.0009        0.1264      0.0000
+2  human_simulation  1294    -0.0739     0.0078       -0.0940      0.0007
+
+Total Pi items: 1312
+
+--- pi_cluster_globalpc.txt (first 120 lines) ---
+Cluster sizes: {1: 15, 2: 28, 3: 9, 4: 28}
+Questionnaires with F1 scores: 45
+F1 matrix shape: (50, 45)  (models x questionnaires)
+
+=== PCA variance explained ===
+  PC1: 47.1%  (cumulative: 47.1%)
+  PC2: 12.0%  (cumulative: 59.1%)
+  PC3: 6.8%  (cumulative: 65.9%)
+  PC4: 4.4%  (cumulative: 70.3%)
+  PC5: 3.7%  (cumulative: 74.0%)
+
+=== Top questionnaire loadings per PC (|loading| > 0.20) ===
+
+  PC1:
+    Positive: HEXACO(0.20), DERS (Difficulties in Emotion Regulation Scale)(0.20), Five Facet Mindfullness Questionnaire (FFMQ)(0.20), Interpersonal Reactivity Index (IRI)(0.21)
+
+  PC2:
+    Negative: Individualism-collectivism IND-COL(-0.30), Varieties of Inner Speech Questionnaire-R(-0.30), PROTESTANT WORK ETHIC SCALE_(-0.28), NEED FOR COGNITION SCALE(-0.24), SVQ(-0.23)
+    Positive: The Satisfaction with Life Scale(0.20), RWA scale 22-item(0.26), EMOTION REGULATION QUESTIONNAIRE (ERQ)_(0.29), Self-Talk Scale(0.34)
+
+  PC3:
+    Negative: Ambivalent Sexism Inventory(-0.24), Psychological Well-Being Scales(-0.20), BAI(-0.20)
+    Positive: Personal Need for Structure (PNS) Scale(0.20), The Satisfaction with Life Scale(0.22), The Internal Representation Questionnaire(0.26), CMQ Conspiracy mentality(0.27), Bayesian Racism Scale(0.35), Social Dominance Orientation Scale 7(0.36)
+
+  PC4:
+    Positive: BIS_BAS Scales(0.20), COPE Inventory(0.24), Personal Need for Structure (PNS) Scale(0.25), PROTESTANT WORK ETHIC SCALE_(0.29), Gavagai(0.43), Self-Monitoring Scale(0.44)
+
+  PC5:
+    Negative: Individualism-collectivism IND-COL(-0.27), The Satisfaction with Life Scale(-0.21), Varieties of Inner Speech Questionnaire-R(-0.21)
+    Positive: Self-Monitoring Scale(0.25), MCQ-30(0.25), Self-Talk Scale(0.30), PROTESTANT WORK ETHIC SCALE_(0.34), NEED FOR COGNITION SCALE(0.35)
+
+
+=== Pi cluster scores x global PCs (Pearson r) ===
+
+                           PC1       PC2       PC3       PC4       PC5
+C1-Reactive          -0.750*** +0.334  * -0.146    +0.308  * -0.107   
+C2-Traits            +0.891*** -0.102    +0.320  * -0.160    +0.109   
+C3-InnerSpeech       -0.241    -0.576*** -0.077    +0.058    +0.211   
+C4-FeltExp           +0.609*** -0.651*** +0.003    -0.151    +0.028   
+
+=== Spearman rho ===
+
+                           PC1       PC2       PC3       PC4       PC5
+C1-Reactive          -0.585*** +0.408 ** -0.183    +0.335  * -0.207   
+C2-Traits            +0.804*** -0.388 ** +0.236    -0.019    +0.176   
+C3-InnerSpeech       -0.173    -0.578*** -0.137    +0.063    +0.233   
+C4-FeltExp           +0.464*** -0.681*** +0.036    -0.113    +0.287  *
+
+--- Congruence summary ---
+phi(la,n):  mean=0.696  median=0.762  n=45
+phi(hs,la): mean=0.599  median=0.564
+phi(hs,n):  mean=0.587  median=0.547
+phi(la,n) > phi(hs,la): 82.2%
+Delta phi mean=0.097  median=0.077
+
+--- pinocchio_llm_analog_replication.txt ---
+Cluster sizes (neutral, fixed): {1: 15, 2: 28, 3: 9, 4: 28}
+Items available in llm_analog pivot: 80
+Questionnaires with F1 scores (llm_analog): 45
+F1 matrix shape: (50, 45)
+
+=== PCA variance explained (llm_analog) ===
+  PC1: 41.3%  (cumulative: 41.3%)
+  PC2: 18.4%  (cumulative: 59.7%)
+  PC3: 8.4%  (cumulative: 68.1%)
+  PC4: 4.5%  (cumulative: 72.6%)
+  PC5: 2.9%  (cumulative: 75.5%)
+
+=== Top questionnaire loadings on PC1 and PC2 (|loading| > 0.20) ===
+
+  PC1:
+    Positive: BFI-2(0.20), DERS (Difficulties in Emotion Regulation Scale)(0.21), Adult Temperament Questionnaire(0.21), HEXACO(0.22)
+
+  PC2:
+    Negative: Rosenberg Self-Esteem Scale(-0.23), The Satisfaction with Life Scale(-0.20)
+    Positive: Self-Talk Scale(0.22), Self-Monitoring Scale-Revised(0.23), SVQ(0.23), Balanced Inventory of Desirable Responding Version 6(0.25), Varieties of Inner Speech Questionnaire-R(0.27), Schwartz_Values(0.28), Individualism-collectivism IND-COL(0.30), Interpersonal Reactivity Index (IRI)(0.31)
+
+
+=== Pi strand scores x global PCs — llm_analog (Pearson r) ===
+
+                           PC1       PC2       PC3       PC4       PC5
+C1-Reactive          -0.648*** -0.525*** +0.190    +0.118    +0.082   
+C2-Traits            +0.886*** +0.265    -0.271    -0.095    -0.058   
+C3-InnerSpeech       -0.164    +0.721*** -0.005    -0.115    -0.155   
+C4-FeltExp           +0.563*** +0.715*** -0.153    -0.062    -0.080   
+
+=== Spearman rho ===
+
+                           PC1       PC2       PC3       PC4       PC5
+C1-Reactive          -0.696*** -0.472*** +0.289  * +0.135    +0.102   
+C2-Traits            +0.928*** +0.193    -0.351  * -0.118    +0.015   
+C3-InnerSpeech       -0.147    +0.672*** -0.006    -0.138    -0.173   
+C4-FeltExp           +0.627*** +0.632*** -0.212    -0.105    -0.035   
+
+--- llm_analog log ---
+Models scored in llm_analog condition: 50
+Overlap with neutral scores: 50
+
+Spearman rho (neutral rank vs llm_analog rank) = 0.482, p = 0.0003977
+
+ Rank (analog)   Rank (neutral)  Model                                                 Analog   Neutral
+----------------------------------------------------------------------------------------------------
+             1               27  google/gemini-2.5-pro                                 +0.827    +0.026
+             2                2  cohere/command-r7b-12-2024                            +0.593    +0.415
+             3               12  moonshot

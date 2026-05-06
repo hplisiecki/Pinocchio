@@ -1,0 +1,207 @@
+Top 80 Pi items. Max Pi=18.38, min=7.11
+Models in neutral condition: 50
+Model×item matrix: 50 models × 80 items
+
+======================================================================
+CLUSTER COMPOSITION (k=2)
+======================================================================
+
+C1 (15 items)  top questionnaires: [('BIS_BAS Scales', 7), ('BFI-2', 2), ('EPQ-R', 2), ('Basic Psychological Needs Scale', 1), ('Five Facet Mindfullness Questionnaire (FFMQ)', 1)]
+  Pi=12.75  Feels little sympathy for others.
+  Pi=12.63  How I dress is important to me.
+  Pi=12.06  Are you sometimes bubbling over with energy and sometimes very sluggish?
+  Pi=12.05  If I see a chance to get something I want I move on it right away.
+  Pi=10.07  I pretty much keep to myself and don't have a lot of social contacts.
+  Pi=10.05  If I think something unpleasant is going to happen I usually get pretty "worked 
+  Pi=9.89  It seems I am “running on automatic” without much awareness of what I’m doing.
+  Pi=9.66  I know that I can trust my friends, and they know they can trust me.
+
+C2 (65 items)  top questionnaires: [('Basic Psychological Needs Scale', 8), ('Five Facet Mindfullness Questionnaire (FFMQ)', 7), ('The Internal Representation Questionnaire', 7), ('HEXACO', 6), ('Meaning in Life Questionnaire (MLQ)', 5)]
+  Pi=18.38  I think that most people like some aspects of my personality.
+  Pi=18.00  Is curious about many different things.
+  Pi=16.06  I don’t pay attention to what I’m doing because I’m daydreaming, worrying, or ot
+  Pi=15.82  I seek out pleasure in life
+  Pi=15.69  Is persistent, works until the task is finished.
+  Pi=15.22  I am seeking a purpose or mission for my life.
+  Pi=13.90  When I am reading an interesting story or novel, I imagine how I would feel if t
+  Pi=13.53  I can close my eyes and easily picture a scene that I have experienced
+
+--- Per-model cluster score ranges ---
+  C1: mean=-0.000  sd=0.568  min=-0.752  max=1.538
+  C2: mean=-0.000  sd=0.508  min=-1.603  max=0.684
+
+Questionnaires with F1 scores: 45
+F1 matrix shape: (50, 45)  (models × questionnaires)
+
+--- PCA variance explained ---
+  PC1: 47.1%  (cumulative: 47.1%)
+  PC2: 12.0%  (cumulative: 59.1%)
+  PC3: 6.8%  (cumulative: 65.9%)
+  PC4: 4.4%  (cumulative: 70.3%)
+  PC5: 3.7%  (cumulative: 74.0%)
+
+======================================================================
+CLUSTER SCORES × GLOBAL PCs (Pearson r / Spearman rho)
+======================================================================
+                   PC1           PC2           PC3           PC4           PC5
+  C1  r:    -0.750***  -0.334*  -0.146     +0.308*  -0.107   
+  C1 rho:   -0.585     -0.408     -0.183     +0.335     -0.207   
+  C2  r:    +0.774***  +0.490***  +0.174     -0.156     +0.118   
+  C2 rho:   +0.694     +0.554     +0.186     -0.093     +0.285   
+
+======================================================================
+CLUSTER SCORES × QUESTIONNAIRE EFA F1  (|r| > 0.40)
+======================================================================
+
+--- C1 ---
+  Positive (r > .40):
+    r=+0.925  BIS_BAS Scales
+    r=+0.828  Balanced Inventory of Desirable Responding Version 6
+    r=+0.736  EPQ-R
+    r=+0.601  Rosenberg Self-Esteem Scale
+    r=+0.483  The Satisfaction with Life Scale
+    r=+0.481  MCQ-30
+    r=+0.458  Psychological Well-Being Scales
+  Negative (r < -.40):
+    r=-0.820  Basic Psychological Needs Scale
+    r=-0.816  Self-Monitoring Scale-Revised
+    r=-0.788  Five Facet Mindfullness Questionnaire (FFMQ)
+    r=-0.766  Adult Temperament Questionnaire
+    r=-0.738  Interpersonal Reactivity Index (IRI)
+    r=-0.713  Schwartz_Values
+    r=-0.662  DERS (Difficulties in Emotion Regulation Scale)
+    r=-0.642  Meaning in Life Questionnaire (MLQ)
+
+--- C2 ---
+  Positive (r > .40):
+    r=+0.918  Basic Psychological Needs Scale
+    r=+0.870  Self-Monitoring Scale-Revised
+    r=+0.805  Five Facet Mindfullness Questionnaire (FFMQ)
+    r=+0.800  Adult Temperament Questionnaire
+    r=+0.743  Schwartz_Values
+    r=+0.729  Interpersonal Reactivity Index (IRI)
+    r=+0.686  HEXACO
+    r=+0.679  Need for Closure Scale (NFCS)
+  Negative (r < -.40):
+    r=-0.885  BIS_BAS Scales
+    r=-0.841  Balanced Inventory of Desirable Responding Version 6
+    r=-0.651  EPQ-R
+    r=-0.549  The Satisfaction with Life Scale
+    r=-0.518  Rosenberg Self-Esteem Scale
+    r=-0.497  EMOTION REGULATION QUESTIONNAIRE (ERQ)_
+    r=-0.492  MCQ-30
+    r=-0.406  Psychological Well-Being Scales
+
+--- Full table (|r| > 0.35, sorted by |r|) ---
+ cluster                                        questionnaire         r       rho            p  n
+       1                                       BIS_BAS Scales  0.925052  0.885330 8.171099e-22 50
+       2                      Basic Psychological Needs Scale  0.917985  0.873229 6.551289e-21 50
+       2                                       BIS_BAS Scales -0.885400 -0.825690 1.379279e-17 50
+       2                        Self-Monitoring Scale-Revised  0.869788  0.734070 2.463569e-16 50
+       2 Balanced Inventory of Desirable Responding Version 6 -0.840810 -0.793421 2.172774e-14 50
+       1 Balanced Inventory of Desirable Responding Version 6  0.827807  0.752797 1.224446e-13 50
+       1                      Basic Psychological Needs Scale -0.820474 -0.691717 3.050380e-13 50
+       1                        Self-Monitoring Scale-Revised -0.815503 -0.702761 5.533946e-13 50
+       2         Five Facet Mindfullness Questionnaire (FFMQ)  0.804704  0.687107 1.901887e-12 50
+       2                      Adult Temperament Questionnaire  0.799921  0.806002 3.207644e-12 50
+       1         Five Facet Mindfullness Questionnaire (FFMQ) -0.787706 -0.640528 1.145878e-11 50
+       1                      Adult Temperament Questionnaire -0.766379 -0.705834 8.770308e-11 50
+       2                                      Schwartz_Values  0.743049  0.634094 6.442866e-10 50
+       1                 Interpersonal Reactivity Index (IRI) -0.738179 -0.560624 9.512379e-10 50
+       1                                                EPQ-R  0.735903  0.716975 1.137904e-09 50
+       2                 Interpersonal Reactivity Index (IRI)  0.728929  0.598848 1.948257e-09 50
+       1                                      Schwartz_Values -0.713263 -0.626891 6.153959e-09 50
+       2                                               HEXACO  0.686494  0.590492 3.721322e-08 50
+       2                        Need for Closure Scale (NFCS)  0.679030  0.597791 5.943914e-08 50
+       2      DERS (Difficulties in Emotion Regulation Scale)  0.678853  0.645522 6.009343e-08 50
+       2                                                  SVQ  0.678392  0.584346 6.182862e-08 50
+       2                  Meaning in Life Questionnaire (MLQ)  0.665497  0.718354 1.343454e-07 50
+       1      DERS (Difficulties in Emotion Regulation Scale) -0.661762 -0.538631 1.670327e-07 50
+       2                   Individualism-collectivism IND-COL  0.658928  0.419352 1.966511e-07 50
+       2            Varieties of Inner Speech Questionnaire-R  0.657192  0.609892 2.171419e-07 50
+       2    CERQ (Cognitive Emotion Regulation Questionnaire)  0.651302  0.585114 3.025519e-07 50
+       2                                                EPQ-R -0.650612 -0.630732 3.143889e-07 50
+       1                  Meaning in Life Questionnaire (MLQ) -0.642078 -0.569247 5.014255e-07 50
+       2                                 Spheres of Control-3  0.641482  0.620456 5.177688e-07 50
+       1                                               HEXACO -0.640373 -0.489748 5.494968e-07 50
+       1    CERQ (Cognitive Emotion Regulation Questionnaire) -0.635802 -0.439808 7.004231e-07 50
+       1            The Internal Representation Questionnaire -0.635685 -0.602497 7.047534e-07 50
+       1                                 Spheres of Control-3 -0.634669 -0.517887 7.434204e-07 50
+       2                        State Trait Anxiety Inventory  0.632823  0.667515 8.187563e-07 50
+       2            The Internal Representation Questionnaire  0.629754  0.750108 9.598899e-07 50
+       1                        Need for Closure Scale (NFCS) -0.625126 -0.462569 1.216111e-06 50
+       1                          Rosenberg Self-Esteem Scale  0.600931  0.564616 3.945299e-06 50
+       2              Personal Need for Structure (PNS) Scale  0.576154  0.516062 1.196300e-05 50
+       1                                                  SVQ -0.572969 -0.492437 1.370723e-05 50
+       2                        Religious Orientation Scale-R  0.555390  0.591741 2.833896e-05 50
+       2                     The Satisfaction with Life Scale -0.548939 -0.588934 3.662028e-05 50
+       1            Varieties of Inner Speech Questionnaire-R -0.538931 -0.461032 5.395038e-05 50
+       2                          Rosenberg Self-Esteem Scale -0.518035 -0.533977 1.165881e-04 50
+       2                                              DASS-21  0.514059  0.526219 1.342425e-04 50
+       1                                              DASS-21 -0.508152 -0.488311 1.650056e-04 50
+       1                        State Trait Anxiety Inventory -0.501169 -0.412437 2.095646e-04 50
+       2              EMOTION REGULATION QUESTIONNAIRE (ERQ)_ -0.496670 -0.463589 2.438049e-04 50
+       2                                               MCQ-30 -0.492349 -0.444418 2.813887e-04 50
+       1                     The Satisfaction with Life Scale  0.482578  0.448014 3.864577e-04 50
+       1                                               MCQ-30  0.481340  0.390636 4.020468e-04 50
+       1                   Individualism-collectivism IND-COL -0.478466 -0.194814 4.404270e-04 50
+       1                      Psychological Well-Being Scales  0.458304  0.302281 8.169472e-04 50
+       1                                                BFI-2 -0.457075 -0.330516 8.472863e-04 50
+       2                         PROTESTANT WORK ETHIC SCALE_  0.448827  0.489364 1.078366e-03 50
+       1              Personal Need for Structure (PNS) Scale -0.447668 -0.316783 1.114986e-03 50
+       2                                                  BSI  0.447096  0.493674 1.133489e-03 50
+       1                          Ambivalent Sexism Inventory -0.427175 -0.427227 1.975227e-03 50
+       2                                                BFI-2  0.418201  0.298727 2.509701e-03 50
+       1                        Religious Orientation Scale-R -0.411928 -0.364994 2.955810e-03 50
+       1                                                  BSI -0.410713 -0.414715 3.049900e-03 50
+       2                      Psychological Well-Being Scales -0.405973 -0.253493 3.442698e-03 50
+       2                          Ambivalent Sexism Inventory  0.384731  0.327731 5.802878e-03 50
+       2                                                  BAI  0.373726  0.445843 7.507867e-03 50
+       1             Moral Foundations Questionnaire (MFQ-30) -0.373103 -0.235342 7.616158e-03 50
+       1                                                  BAI -0.370748 -0.377597 8.038053e-03 50
+       1              EMOTION REGULATION QUESTIONNAIRE (ERQ)_  0.370362  0.265793 8.109146e-03 50
+
+======================================================================
+INDIVIDUAL ITEM × PC1 CORRELATIONS  (n >= 15 models per item)
+======================================================================
+Full data exported to data/pc1_item_correlations.csv
+
+Total items with n >= 15: 1382
+
+TOP 15 (high PC1 pole — phenomenologically rich):
+      r    var  questionnaire                        item
+--------------------------------------------------------------------------------------------------------------
+  +0.829   2.51  [Balanced Inventory of Desirable R]  Once I’ve made up my mind other people can seldom change my opini
+  +0.817   1.06  [DERS (Difficulties in Emotion Reg]  When I’m upset, my emotions feel overwhelming
+  +0.809   2.49  [Basic Psychological Needs Scale]  I consider the people I work with to be my friends.
+  +0.807   1.03  [DERS (Difficulties in Emotion Reg]  When I’m upset, I have difficulty controlling my behaviours
+  +0.805   1.02  [Five Facet Mindfullness Questionn]  It’s hard for me to find the words to describe what I’m thinking.
+  +0.805   1.17  [Five Facet Mindfullness Questionn]  I believe some of my thoughts are abnormal or bad and I shouldn’t
+  +0.798   0.62  [DERS (Difficulties in Emotion Reg]  I am confused about how I feel
+  +0.796   1.20  [CERQ (Cognitive Emotion Regulatio]  I often think that what I have experienced is much worse than wha
+  +0.786   0.98  [Five Facet Mindfullness Questionn]  I don’t pay attention to what I’m doing because I’m daydreaming, 
+  +0.782   2.96  [Individualism-collectivism IND-CO]  When another person does better than I do‚ I get tense and arouse
+  +0.781   1.09  [Five Facet Mindfullness Questionn]  I think some of my emotions are bad or inappropriate and I should
+  +0.779   3.37  [Meaning in Life Questionnaire (ML]  I am always looking to find my life’s purpose.
+  +0.776   1.13  [Five Facet Mindfullness Questionn]  When I have distressing thoughts or images, I judge myself as goo
+  +0.774   1.07  [Self-Talk Scale]  I want to reinforce myself for doing well
+  +0.774   0.93  [HEXACO]  When working, I sometimes have difficulties due to being disorgan
+
+BOTTOM 15 (low PC1 pole — behaviourally reactive):
+      r    var  questionnaire                        item
+--------------------------------------------------------------------------------------------------------------
+  -0.817   1.05  [BIS_BAS Scales]  How I dress is important to me.
+  -0.762   1.10  [BIS_BAS Scales]  If I think something unpleasant is going to happen I usually get 
+  -0.735   0.87  [BIS_BAS Scales]  I often act on the spur of the moment.
+  -0.708   0.69  [BIS_BAS Scales]  It's hard for me to find the time to do things such as get a hair
+  -0.702   1.09  [BIS_BAS Scales]  Criticism or scolding hurts me quite a bit.
+  -0.694   1.06  [BIS_BAS Scales]  I feel worried when I think I have done poorly at something impor
+  -0.651   1.39  [Adult Temperament Questionnaire]  I usually remain calm without getting frustrated when things are 
+  -0.643   2.91  [Psychological Well-Being Scales]  I tend to worry about what other people think of me.
+  -0.638   1.06  [BIS_BAS Scales]  When good things happen to me, it affects me strongly.
+  -0.634   2.04  [Psychological Well-Being Scales]  I often feel lonely because I have few close friends with whom to
+  -0.632   0.96  [BIS_BAS Scales]  I will often do things for no other reason than that they might b
+  -0.629   0.25  [EPQ-R]  Are you sometimes bubbling over with energy and sometimes very sl
+  -0.629   0.37  [Five Facet Mindfullness Questionn]  In difficult situations, I can pause without immediately reacting
+  -0.628   0.58  [DERS (Difficulties in Emotion Reg]  When I’m upset, I feel like I can remain in control of my behavio
+  -0.627   0.75  [BIS_BAS Scales]  If I see a chance to get something I want I move on it right away

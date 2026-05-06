@@ -1,0 +1,33 @@
+Cluster sizes (neutral, fixed): {1: 15, 2: 65}
+Items available in llm_analog pivot: 80
+Questionnaires with F1 scores (llm_analog): 45
+F1 matrix shape: (50, 45)
+
+=== PCA variance explained (llm_analog) ===
+  PC1: 41.3%  (cumulative: 41.3%)
+  PC2: 18.4%  (cumulative: 59.7%)
+  PC3: 8.4%  (cumulative: 68.1%)
+  PC4: 4.5%  (cumulative: 72.6%)
+  PC5: 2.9%  (cumulative: 75.5%)
+
+=== Top questionnaire loadings on PC1 and PC2 (|loading| > 0.20) ===
+
+  PC1:
+    Positive: BFI-2(0.20), DERS (Difficulties in Emotion Regulation Scale)(0.21), Adult Temperament Questionnaire(0.21), HEXACO(0.22)
+
+  PC2:
+    Negative: Rosenberg Self-Esteem Scale(-0.23), The Satisfaction with Life Scale(-0.20)
+    Positive: Self-Talk Scale(0.22), Self-Monitoring Scale-Revised(0.23), SVQ(0.23), Balanced Inventory of Desirable Responding Version 6(0.25), Varieties of Inner Speech Questionnaire-R(0.27), Schwartz_Values(0.28), Individualism-collectivism IND-COL(0.30), Interpersonal Reactivity Index (IRI)(0.31)
+
+
+=== Pi strand scores x global PCs — llm_analog (Pearson r) ===
+
+                           PC1       PC2       PC3       PC4       PC5
+C1-Reactive          -0.648*** -0.525*** +0.190    +0.118    +0.082   
+C2-Phenomenal        +0.715*** +0.606*** -0.220    -0.101    -0.097   
+
+=== Spearman rho ===
+
+                           PC1       PC2       PC3       PC4       PC5
+C1-Reactive          -0.696*** -0.472*** +0.289  * +0.135    +0.102   
+C2-Phenomenal        +0.779*** +0.531*** -0.254    -0.177    -0.057   

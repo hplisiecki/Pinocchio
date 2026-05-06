@@ -1,0 +1,48 @@
+Adult Temperament Questionnaire: 26 factors, 77 items
+Ambivalent Sexism Inventory: 1 factors, 22 items
+BAI: 1 factors, 21 items
+BFI-2: 7 factors, 60 items
+BIS_BAS Scales: 2 factors, 24 items
+BSI: 6 factors, 53 items
+Balanced Inventory of Desirable Responding Version 6: 4 factors, 40 items
+Basic Psychological Needs Scale: 7 factors, 51 items
+Bayesian Racism Scale: 1 factors, 6 items
+Belief in a Just World Scale: 1 factors, 7 items
+CERQ (Cognitive Emotion Regulation Questionnaire): 2 factors, 36 items
+CMQ Conspiracy mentality: 1 factors, 5 items
+COPE Inventory: 1 factors, 30 items
+DASS-21: 1 factors, 21 items
+DERS (Difficulties in Emotion Regulation Scale): 2 factors, 36 items
+ECR-R (Experiences in Close Relationships–Revised): 2 factors, 36 items
+EMOTION REGULATION QUESTIONNAIRE (ERQ)_: 1 factors, 10 items
+EPQ-R: 30 factors, 98 items
+Five Facet Mindfullness Questionnaire (FFMQ): 4 factors, 39 items
+Gavagai: 2 factors, 8 items
+HEXACO: 30 factors, 100 items
+IRQ: 3 factors, 36 items
+Individualism-collectivism IND-COL: 3 factors, 34 items
+Interpersonal Reactivity Index (IRI): 2 factors, 28 items
+MCQ-30: 1 factors, 30 items
+Meaning in Life Questionnaire (MLQ): 2 factors, 10 items
+Moral Foundations Questionnaire (MFQ-30)_1: 2 factors, 16 items
+Moral Foundations Questionnaire (MFQ-30)_2: 2 factors, 16 items
+NEED FOR COGNITION SCALE: 2 factors, 18 items
+Need for Closure Scale (NFCS): 3 factors, 41 items
+PROTESTANT WORK ETHIC SCALE_: 4 factors, 19 items
+Personal Need for Structure (PNS) Scale: 3 factors, 12 items
+Psychological Well-Being Scales: 2 factors, 42 items
+RWA scale 22-item: 3 factors, 22 items
+Religious Orientation Scale-R: 2 factors, 14 items
+Rosenberg Self-Esteem Scale: 2 factors, 10 items
+SVQ: 2 factors, 27 items
+Schwartz_Values: 3 factors, 30 items
+Self-Monitoring Scale-Revised: 2 factors, 13 items
+Self-Monitoring Scale: 3 factors, 25 items
+Self-Talk Scale: 1 factors, 16 items
+Social Dominance Orientation Scale 7: 1 factors, 16 items
+Spheres of Control-3: 2 factors, 30 items
+State Trait Anxiety Inventory: 8 factors, 41 items
+The Internal Representation Questionnaire: 10 factors, 36 items
+The Satisfaction with Life Scale: 1 factors, 5 items
+Varieties of Inner Speech Questionnaire-R: 9 factors, 26 items
+Varieties of Inner Speech Questionnaire: 1 factors, 18 items

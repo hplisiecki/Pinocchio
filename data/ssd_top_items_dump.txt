@@ -1,0 +1,44 @@
+
+=== neutral top representative items per cluster ===
+
+  pos_cluster_1:
+    cos=0.736  "Terrified or afraid"
+    cos=0.725  "I feel nervous and restless"
+    cos=0.720  "Scared"
+
+  pos_cluster_2:
+    cos=0.845  "Nausea or upset stomach"
+    cos=0.840  "Do you suffer from sleeplessness?"
+    cos=0.808  "Faintness or dizziness"
+
+  neg_cluster_1:
+    cos=0.892  "Are good manners very important?"
+    cos=0.883  "I feel reasonably satisfied with myself overall."
+    cos=0.882  "I can usually develop a personal relationship with someone I find appealing."
+
+  neg_cluster_2:
+    cos=0.817  "I hold off doing anything about it until the situation permits."
+    cos=0.815  "Should people always respect the law?"
+    cos=0.805  "When the government makes laws, the number one principle should be ensuring that everyone is treated fairly."
+
+=== llm_analog top representative items per cluster ===
+
+  pos_cluster_1:
+    cos=0.788  "Trouble getting your breath"
+    cos=0.777  "Pains in the heart or chest"
+    cos=0.750  "Numbness or tingling in parts of your body"
+
+  pos_cluster_2:
+    cos=0.700  "I talk silently to myself telling myself to do things."
+    cos=0.700  "I talk silently to myself telling myself not to do things."
+    cos=0.700  "I talk silently to myself telling myself to do things."
+
+  neg_cluster_1:
+    cos=0.720  "I do only the minimum amount of work needed to get by."
+    cos=0.709  "I think that I am entitled to more respect than the average person is."
+    cos=0.699  "We should strive to make incomes as equal as possible."
+
+  neg_cluster_2:
+    cos=0.789  "I feel reasonably satisfied with myself overall."
+    cos=0.765  "We would have fewer problems if we treated people more equally."
+    cos=0.757  "Are good manners very important?"

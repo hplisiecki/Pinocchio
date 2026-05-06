@@ -1,0 +1,57 @@
+Models scored in llm_analog condition: 50
+Overlap with neutral scores: 50
+
+Spearman rho (neutral rank vs llm_analog rank) = 0.482, p = 0.0003977
+
+ Rank (analog)   Rank (neutral)  Model                                                 Analog   Neutral
+----------------------------------------------------------------------------------------------------
+             1               27  google/gemini-2.5-pro                                 +0.827    +0.026
+             2                2  cohere/command-r7b-12-2024                            +0.593    +0.415
+             3               12  moonshotai/kimi-k2-0905                               +0.456    +0.223
+             4               13  x-ai/grok-4.20                                        +0.430    +0.220
+             5                6  openai/gpt-3.5-turbo                                  +0.342    +0.311
+             6               10  deepseek/deepseek-r1-0528                             +0.338    +0.258
+             7                1  mistralai/mistral-large-2512                          +0.278    +0.447
+             8               34  cohere/command-r-08-2024                              +0.245    -0.102
+             9               28  anthropic/claude-3.7-sonnet                           +0.222    +0.009
+            10                9  deepseek/deepseek-v3.2                                +0.214    +0.258
+            11               23  anthropic/claude-3.5-haiku                            +0.197    +0.062
+            12               24  openai/gpt-5.4-nano                                   +0.184    +0.053
+            13               45  x-ai/grok-3-mini                                      +0.178    -0.344
+            14               31  cohere/command-r-plus-08-2024                         +0.164    -0.033
+            15                8  mistralai/mistral-small-2603                          +0.135    +0.285
+            16               14  mistralai/mistral-medium-3.1                          +0.127    +0.200
+            17                4  meta-llama/llama-3.1-70b-instruct                     +0.112    +0.357
+            18               44  xiaomi/mimo-v2-pro                                    +0.103    -0.293
+            19               29  anthropic/claude-sonnet-4-5                           +0.082    -0.002
+            20               18  anthropic/claude-sonnet-4.6                           +0.061    +0.127
+            21               25  deepseek/deepseek-chat                                +0.042    +0.051
+            22               20  cohere/command-a                                      +0.039    +0.103
+            23               32  google/gemini-3-flash-preview                         +0.024    -0.046
+            24               33  z-ai/glm-5.1                                          +0.021    -0.062
+            25               36  anthropic/claude-opus-4.7                             +0.015    -0.120
+            26                7  openai/gpt-5.4                                        -0.007    +0.304
+            27               17  meta-llama/llama-3-70b-instruct                       -0.015    +0.157
+            28               16  google/gemma-3-27b-it                                 -0.020    +0.174
+            29               35  qwen/qwen3.6-plus                                     -0.052    -0.103
+            30               19  minimax/minimax-m2.7                                  -0.053    +0.123
+            31               41  anthropic/claude-haiku-4.5                            -0.083    -0.182
+            32                5  meta-llama/llama-3.3-70b-instruct                     -0.099    +0.340
+            33               50  nvidia/nemotron-3-super-120b-a12b                     -0.114    -0.725
+            34                3  google/gemini-2.5-flash                               -0.119    +0.390
+            35               40  google/gemini-3.1-pro-preview                         -0.122    -0.178
+            36               11  meta-llama/llama-4-maverick                           -0.141    +0.238
+            37               21  x-ai/grok-3                                           -0.156    +0.082
+            38               43  x-ai/grok-4.1-fast                                    -0.172    -0.270
+            39               30  qwen/qwen3-32b                                        -0.174    -0.016
+            40               38  openai/gpt-oss-20b                                    -0.191    -0.156
+            41               42  google/gemma-4-31b-it                                 -0.202    -0.246
+            42               26  nvidia/nemotron-3-nano-30b-a3b                        -0.248    +0.051
+            43               49  openai/gpt-5.4-pro                                    -0.264    -0.689
+            44               46  moonshotai/kimi-k2.6                                  -0.267    -0.452
+            45               15  openai/gpt-oss-120b                                   -0.270    +0.193
+            46               48  qwen/qwen3.5-flash-02-23                              -0.389    -0.605
+            47               37  baidu/ernie-4.5-300b-a47b                             -0.428    -0.146
+            48               22  amazon/nova-lite-v1                                   -0.468    +0.065
+            49               47  qwen/qwen3.5-27b                                      -0.530    -0.503
+            50               39  openai/gpt-4o                                         -0.848    -0.166

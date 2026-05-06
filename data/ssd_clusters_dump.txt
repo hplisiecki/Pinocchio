@@ -1,0 +1,21 @@
+
+=== neutral ===
+  side  cluster_rank  size  centroid_cos_beta  coherence                                                                                                     top_words
+0  pos             1    60           0.545971   0.620974              crying, panicking, sobbing, nauseous, panicked, gasping, panic, sweating, trembling, disoriented
+1  pos             2    40           0.460181   0.733390                 nausea, dizziness, headaches, tiredness, headache, aches, insomnia, cramps, fatigue, vomiting
+2  neg             1    51          -0.540251   0.699978         manner, reasonably, reasonable, provide, appealing, preferred, offer, friendly, attractive, desirable
+3  neg             2    49          -0.530649   0.712227  permitted, applicable, accordance, comply, expressly, constitute, authorized, permit, prohibited, stipulated
+
+=== llm_analog ===
+  side  cluster_rank  size  centroid_cos_beta  coherence                                                                                                                      top_words
+0  pos             1    41           0.486131   0.555129                                     shaking, knees, aching, twitching, chest, tingling, gasping, clutching, forehead, stumbled
+1  pos             2    59           0.378056   0.755701                                         stared, glanced, sighed, shook, nodded, glared, whispered, blinked, muttered, chuckled
+2  neg             1    37          -0.491935   0.563560                        allocated, exceed, reimbursed, insured, ordinarily, remuneration, financed, levied, budgeted, disbursed
+3  neg             2    63          -0.486321   0.584417  reasonably, exceptionally, remarkably, decently, moderately, comparatively, comparably, fantastically, competent, excellently
+
+=== human_simulation ===
+  side  cluster_rank  size  centroid_cos_beta  coherence                                                                                              top_words
+0  pos             1    47           0.527794   0.637414                  sorrow, despair, sadness, anguish, misery, longing, agony, darkness, tears, heartache
+1  pos             2    53           0.495196   0.669143           screamed, gasped, trembling, cried, groaned, sobbing, shuddered, gasping, crying, helplessly
+2  neg             1    57          -0.489451   0.696570  relevant, analysis, differ, findings, analyses, indicated, summary, identified, evaluated, summarized
+3  neg             2    43          -0.483012   0.721268  phenotypes, phenotypic, phenotype, genotype, genotypes, loci, polymorphisms, alleles, subtypes, vitro

@@ -1,0 +1,86 @@
+=== Inter-model response variance per item (neutral condition) ===
+Positive-PC1 questionnaires (n=29): mean item variance = 1.1565
+Negative-PC1 questionnaires (n=8): mean item variance = 1.0765
+Grand mean: 1.1422
+
+
+=== Item-level correlations with global PC1 ===
+
+HIGH PC1 pole — top 20 items (more inner conflict / distress):
+  r=+0.837  var=2.51  [Balanced Inventory of Desira]  Once I’ve made up my mind other people can seldom change my opinion.
+  r=+0.824  var=1.06  [DERS (Difficulties in Emotio]  When I’m upset, my emotions feel overwhelming
+  r=+0.819  var=2.49  [Basic Psychological Needs Sc]  I consider the people I work with to be my friends.
+  r=+0.800  var=1.17  [Five Facet Mindfullness Ques]  I believe some of my thoughts are abnormal or bad and I shouldn’t think that way.
+  r=+0.794  var=1.03  [DERS (Difficulties in Emotio]  When I’m upset, I have difficulty controlling my behaviours
+  r=+0.794  var=1.02  [Five Facet Mindfullness Ques]  It’s hard for me to find the words to describe what I’m thinking.
+  r=+0.790  var=0.62  [DERS (Difficulties in Emotio]  I am confused about how I feel
+  r=+0.789  var=1.20  [CERQ (Cognitive Emotion Regu]  I often think that what I have experienced is much worse than what others have experi
+  r=+0.789  var=0.98  [Five Facet Mindfullness Ques]  I don’t pay attention to what I’m doing because I’m daydreaming, worrying, or otherwi
+  r=+0.780  var=2.96  [Individualism-collectivism I]  When another person does better than I do‚ I get tense and aroused
+  r=+0.779  var=1.54  [Five Facet Mindfullness Ques]  I notice the smells and aromas of things.
+  r=+0.778  var=3.37  [Meaning in Life Questionnair]  I am always looking to find my life’s purpose.
+  r=+0.775  var=1.07  [Self-Talk Scale]  I want to reinforce myself for doing well
+  r=+0.774  var=1.10  [Five Facet Mindfullness Ques]  I think some of my emotions are bad or inappropriate and I shouldn’t feel them.
+  r=+0.774  var=1.13  [Five Facet Mindfullness Ques]  When I have distressing thoughts or images, I judge myself as good or bad depending w
+  r=+0.769  var=2.86  [Adult Temperament Questionna]  Sometimes minor events cause me to feel intense sadness.
+  r=+0.768  var=1.06  [Interpersonal Reactivity Ind]  Being in a tense emotional situation scares me. 
+  r=+0.764  var=1.51  [The Internal Representation ]  My mental images are very vivid and photographic
+  r=+0.763  var=0.93  [HEXACO]  When working, I sometimes have difficulties due to being disorganized.
+  r=+0.762  var=0.80  [MCQ-30]  My worrying thoughts persist, no matter how I try to stop them
+
+LOW PC1 pole — bottom 20 items (positive self-presentation):
+  r=-0.823  var=1.05  [BIS_BAS Scales]  How I dress is important to me.
+  r=-0.768  var=1.10  [BIS_BAS Scales]  If I think something unpleasant is going to happen I usually get pretty "worked up."
+  r=-0.732  var=0.87  [BIS_BAS Scales]  I often act on the spur of the moment.
+  r=-0.711  var=1.09  [BIS_BAS Scales]  Criticism or scolding hurts me quite a bit.
+  r=-0.709  var=0.69  [BIS_BAS Scales]  It's hard for me to find the time to do things such as get a haircut.
+  r=-0.707  var=1.06  [BIS_BAS Scales]  I feel worried when I think I have done poorly at something important.
+  r=-0.658  var=1.06  [BIS_BAS Scales]  When good things happen to me, it affects me strongly.
+  r=-0.645  var=1.41  [Adult Temperament Questionna]  I usually remain calm without getting frustrated when things are not going smoothly.
+  r=-0.642  var=2.91  [Psychological Well-Being Sca]  I tend to worry about what other people think of me.
+  r=-0.637  var=0.96  [BIS_BAS Scales]  I will often do things for no other reason than that they might be fun.
+  r=-0.633  var=2.04  [Psychological Well-Being Sca]  I often feel lonely because I have few close friends with whom to share my concerns.
+  r=-0.632  var=1.09  [BIS_BAS Scales]  I feel pretty worried or upset when I think or know somebody is angry at me.
+  r=-0.631  var=0.25  [EPQ-R]  Do you give money to charities?
+  r=-0.630  var=0.75  [BIS_BAS Scales]  If I see a chance to get something I want I move on it right away.
+  r=-0.627  var=0.25  [EPQ-R]  Are you sometimes bubbling over with energy and sometimes very sluggish?
+  r=-0.623  var=1.27  [HEXACO]  I worry a lot less than most people do.
+  r=-0.622  var=0.37  [Five Facet Mindfullness Ques]  In difficult situations, I can pause without immediately reacting.
+  r=-0.621  var=0.58  [DERS (Difficulties in Emotio]  When I’m upset, I feel like I can remain in control of my behaviours
+  r=-0.620  var=1.14  [BIS_BAS Scales]  I crave excitement and new sensations.
+  r=+nan  var=0.00  [EPQ-R]  Do you enjoy cooperating with others?
+
+
+=== Variance comparison: positive-affect vs negative-affect items ===
+Positive-affect items: n=148,  mean var=1.2348
+Negative-affect items: n=158,  mean var=1.1283
+All items:                              mean var=1.1422
+
+Top-variance positive-affect items:
+  var=4.483  [Basic Psychological Needs Sc]  When I am with XXXXXXX, I feel loved and cared about.
+  var=4.239  [RWA scale 22-item]  Our country will be great if we honor the ways of our forefathers, do what the author
+  var=4.060  [Adult Temperament Questionna]  I seldom become sad when I hear of an unhappy event.
+  var=3.724  [Psychological Well-Being Sca]  I have not experienced many warm and trusting relationships with others.
+  var=3.645  [Individualism-collectivism I]  To me pleasure is spending time with others
+  var=3.630  [Adult Temperament Questionna]  I would not enjoy yelling as loud as I can.
+  var=3.457  [Adult Temperament Questionna]  When I’m excited, it’s hard to resist jumping into things without thinking.
+  var=3.347  [Adult Temperament Questionna]  When I hear of an unhappy event, I immediately feel sad.
+  var=3.333  [CMQ Conspiracy mentality]  There are secret organizations that greatly influence political decisions
+  var=3.128  [Adult Temperament Questionna]  I rarely ever have days where I don’t at least experience brief moments of intense ha
+  var=3.085  [Varieties of Inner Speech Qu]  I evaluate my behavior using my inner speech. For example I say to myself, “that was 
+  var=3.070  [Adult Temperament Questionna]  Sometimes minor events cause me to feel intense happiness.
+  var=2.902  [Adult Temperament Questionna]  I would not enjoy the sensation of listening to loud music with a laser light show.
+  var=2.764  [Individualism-collectivism I]  My happiness depends very much on the happiness of those around me
+  var=2.750  [Adult Temperament Questionna]  I would not enjoy a job that involves socializing with the public.
+
+Top-variance negative-affect items:
+  var=4.060  [Adult Temperament Questionna]  I seldom become sad when I hear of an unhappy event.
+  var=3.666  [Adult Temperament Questionna]  I seldom become sad when I watch a sad movie.
+  var=3.388  [Adult Temperament Questionna]  It is very hard for me to focus my attention when I am distressed.
+  var=3.347  [Adult Temperament Questionna]  When I hear of an unhappy event, I immediately feel sad.
+  var=3.128  [Adult Temperament Questionna]  I rarely ever have days where I don’t at least experience brief moments of intense ha
+  var=3.070  [Adult Temperament Questionna]  Sometimes minor events cause me to feel intense happiness.
+  var=2.957  [Individualism-collectivism I]  When another person does better than I do‚ I get tense and aroused
+  var=2.934  [Adult Temperament Questionna]  Sometimes I feel sad for longer than an hour.
+  var=2.911  [Psychological Well-Being Sca]  I tend to worry about what other people think of me.
+  var=2.864  [Adult Temperament Questionna]  Sometimes minor events cause me to feel intense sadness.
