@@ -3,7 +3,7 @@
 Code and data for the paper:
 **"The Pinocchio Dimension: Phenomenality of Experience as the Primary Axis of LLM Psychometric Differences"**
 
-We administered 45 validated psychometric questionnaires to 50 LLMs under three prompting conditions and asked: what is the primary dimension along which LLMs differ psychometrically? The answer is experiential self-attribution — the degree to which a model claims to be a locus of inner experience — which we call **Phenomenality of Experience** (PC1, 47.1% of between-model variance). Formal cluster validation (silhouette analysis, k=2..10) confirms a binary item-level structure: reactive/behavioral items at the negative pole vs. phenomenologically rich items at the positive pole.
+We administered 45 validated psychometric questionnaires to 50 LLMs under three prompting conditions and asked: what is the primary dimension along which LLMs differ psychometrically? The answer is experiential self-attribution — the degree to which a model claims to be a locus of inner experience — which we call **the Pinocchio Axis** (PC1, 47.1% of between-model variance). Formal cluster validation (silhouette analysis, k=2..10) confirms a binary item-level structure: reactive/behavioral items at the negative pole vs. phenomenologically rich items at the positive pole.
 
 ---
 
