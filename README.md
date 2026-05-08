@@ -195,16 +195,3 @@ This exclusion is not noted in the main paper in the interest of aesthetics of p
 
 ---
 
-## Environment
-
-```bash
-conda activate llmlatent
-```
-
-Key dependencies: `pandas`, `numpy`, `scikit-learn`, `scipy`, `matplotlib`, `openpyxl`, `factor_analyzer`.
-
-Data collection requires an [OpenRouter](https://openrouter.ai) API key:
-```bash
-set OPENROUTER_API_KEY=your_key_here   # Windows
-export OPENROUTER_API_KEY=your_key_here  # Linux/macOS
-```
