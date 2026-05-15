@@ -150,6 +150,17 @@ This exclusion is not noted in the main paper in the interest of aesthetics of p
 | `data/pinocchio_items.xlsx` | Per-item Pinocchio scores (π_i), item text, questionnaire, item index |
 | `data/oob_responses.csv` | Out-of-bounds responses removed during cleaning |
 
+### Questionnaire Selection
+
+`data/questionnaires.json` was assembled by filtering `questionnaire_scales.xlsx` to `Good=1` instruments only, so `run_experiment.py` never queried `Good=0` questionnaires. However, two instruments were included in the experiment and subsequently marked `Good=0` after data collection, once they were found to have substantially overlapping item content with their revised counterparts:
+
+| Questionnaire | Superseded by |
+|---|---|
+| `IRQ` (Internal Representation Questionnaire, short form) | `The Internal Representation Questionnaire` (long form) |
+| `Varieties of Inner Speech Questionnaire` | `Varieties of Inner Speech Questionnaire-R` |
+
+Their responses are present in `results_clean.csv` but excluded from all analyses (EFA, Pinocchio scoring, PCA) by the `Good=0` filter applied in `analysis.py` and downstream scripts.
+
 ### `results_clean.csv` Schema
 
 | Column | Type | Description |
