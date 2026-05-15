@@ -152,6 +152,8 @@ This exclusion is not noted in the main paper in the interest of aesthetics of p
 
 ### Questionnaire Selection
 
+The `Good` flag in `questionnaire_scales.xlsx` was used to exclude instruments on two grounds: (1) ease of administration concerns (e.g., questionnaires with complex branching or non-numeric response formats), and (2) construct overlap — where a different measure covering the same construct was already included in the battery, the redundant instrument was marked `Good=0`.
+
 `data/questionnaires.json` was assembled by filtering `questionnaire_scales.xlsx` to `Good=1` instruments only, so `run_experiment.py` never queried `Good=0` questionnaires. However, two instruments were included in the experiment and subsequently marked `Good=0` after data collection, once they were found to have substantially overlapping item content with their revised counterparts:
 
 | Questionnaire | Superseded by |
