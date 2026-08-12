@@ -1,4 +1,4 @@
-# LLMLatent
+# The Pinocchio Dimension
 
 Code and data for the paper:
 **"The Pinocchio Dimension: Phenomenality of Experience as the Primary Axis of LLM Psychometric Differences"**
